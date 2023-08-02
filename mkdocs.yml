@@ -2,7 +2,7 @@
 site_name: The Blue Book
 site_description: My personal digital garden
 site_author: Lyz
-site_url: https://lyz-code.github.io/blue-book
+site_url: https://Joon-Park92.github.io
 nav:
   - Math:
     - 2023-06-01-completeness_soundness_consistency.md 
