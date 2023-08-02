@@ -24,7 +24,8 @@ plugins:
   - mkdocs-newsletter
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - assets/js/mathjaxhelper.js
 
 markdown_extensions:
   - abbr
