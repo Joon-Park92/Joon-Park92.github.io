@@ -5,9 +5,10 @@ site_author: Lyz
 site_url: https://Joon-Park92.github.io
 nav:
   - Math:
-    - 2023-06-01-completeness_soundness_consistency.md 
+    - 2023-06-01-completeness_soundness_consistency.md
     - 2023-06-01-distance_vs_metric_vs_norm.md
     - 2023-06-06-db-transaction.md
+    - 2023-06-11-modern-mathematics.md
 
 plugins:
   - search
