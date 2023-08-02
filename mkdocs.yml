@@ -9,6 +9,7 @@ nav:
     - 2023-06-01-distance_vs_metric_vs_norm.md
     - 2023-06-06-db-transaction.md
     - 2023-06-11-modern-mathematics.md
+    - 2023-06-01-completeness_soundness_consistency.md
 
 plugins:
   - search
@@ -21,6 +22,9 @@ plugins:
       minify_html: true
   - section-index
   - mkdocs-newsletter
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 markdown_extensions:
   - abbr
@@ -49,6 +53,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - mdx_math
 theme:
   name: material
   custom_dir: theme
