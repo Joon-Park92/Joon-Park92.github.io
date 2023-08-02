@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    
+    <title>The Blue Book</title>
+    <description>My personal digital garden</description>
+    <link>https://Joon-Park92.github.io</link>
+    <atom:link href="https://Joon-Park92.github.io/weekly.xml" rel="self" type="application/rss+xml"/>
+
+    
+    <managingEditor>Lyz</managingEditor>
+
+    
+    <pubDate>2023-08-02 14:57:19.922344</pubDate>
+    <ttl>10080</ttl>
+
+    
+    <generator>mkdocs-newsletter - v1.0.1</generator>
+
+    
+    
+    <image><url>https://Joon-Park92.github.io/img/logo.bmp</url><title>The Blue Book</title>
+      <link>https://Joon-Park92.github.io</link>
+    </image>
+    
+
+    
+    
+  </channel>
+</rss>
