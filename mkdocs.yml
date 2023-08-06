@@ -1,7 +1,7 @@
 ---
-site_name: The Blue Book
+site_name: Memories
 site_description: My personal digital garden
-site_author: Lyz
+site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
   - Introduction: index.md
@@ -63,7 +63,7 @@ markdown_extensions:
 theme:
   name: material
   custom_dir: theme
-  logo: img/logo.bmp
+  logo: img/logo.png
   features:
     - navigation.footer
     - navigation.instant
