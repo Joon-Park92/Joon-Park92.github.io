@@ -10,10 +10,10 @@ nav:
     - DB:  
       - 2023-06-06-db-transaction.md
   - Mathematics:
-    - 2023-06-01-distance_vs_metric_vs_norm.md
-    - 2023-06-11-modern-mathematics.md
-    - 2023-06-01-completeness_soundness_consistency.md
-    - 2023-07-10-analysis-basic.md
+    - mathematics/2023-06-01-distance_vs_metric_vs_norm.md
+    - mathematics/2023-06-11-modern-mathematics.md
+    - mathematics/2023-06-01-completeness_soundness_consistency.md
+    - mathematics/2023-07-10-analysis-basic.md
 
 plugins:
   - search
@@ -26,7 +26,6 @@ plugins:
       minify_html: true
   - section-index
   - mkdocs-newsletter
-
 
 markdown_extensions:
   - abbr
@@ -89,8 +88,9 @@ theme:
 
 extra_css: [stylesheets/extra.css, stylesheets/links.css]
 extra_javascript:
+  - path: assets/js/mathjaxhelper.js
+    defer: true
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
-  - assets/js/mathjaxhelper.js
 
 extra:
   social:
