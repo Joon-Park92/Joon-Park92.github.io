@@ -10,7 +10,6 @@ nav:
     - DB:  
       - 2023-06-06-db-transaction.md
   - Mathematics:
-    - 2023-06-01-completeness_soundness_consistency.md
     - 2023-06-01-distance_vs_metric_vs_norm.md
     - 2023-06-11-modern-mathematics.md
     - 2023-06-01-completeness_soundness_consistency.md
@@ -28,9 +27,6 @@ plugins:
   - section-index
   - mkdocs-newsletter
 
-extra_javascript:
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
-  - assets/js/mathjaxhelper.js
 
 markdown_extensions:
   - abbr
@@ -92,6 +88,9 @@ theme:
         name: Switch to light mode
 
 extra_css: [stylesheets/extra.css, stylesheets/links.css]
+extra_javascript:
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - assets/js/mathjaxhelper.js
 
 extra:
   social:
