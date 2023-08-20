@@ -4,6 +4,7 @@ I have been interested in jobs related to mathematics. That's why I studied econ
 
 I love to apply the technologies to solve real-world problems. So I joined startup company where I have to face complex situation to solve. I believe that the experience to solve problems is the driving force for growth.
 
+---
 
 안녕하세요, 저는 머신러닝 엔지니어인 션입니다.
 

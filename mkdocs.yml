@@ -4,8 +4,12 @@ site_description: My personal digital garden
 site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
-  - Introduction: index.md
-  - Project: project.md
+  - Introduction:
+    - index.md
+    - Think:
+      - Problem : what_is_problem.md
+    - Project:
+      - project.md
   - Programming:
     - DB:  
       - 2023-06-06-db-transaction.md

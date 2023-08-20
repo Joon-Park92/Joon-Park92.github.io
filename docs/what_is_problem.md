@@ -9,24 +9,24 @@
 - Problem solving ( [Wikipedia](https://en.wikipedia.org/wiki/Problem_solving) ) 이라는 단어의 정의를 살펴보자.
     
     > The term *problem solving* has a slightly different meaning depending on the discipline. For instance, it is a mental process in [psychology](https://en.wikipedia.org/wiki/Psychology) and a computerized process in [computer science](https://en.wikipedia.org/wiki/Computer_science). There are two different types of problems: ill-defined and well-defined; different approaches are used for each. **Well-defined problems** have specific end **goals** and clearly expected **solutions**, while ill-defined problems do not. Well-defined problems allow for more initial planning than ill-defined problems.[[1]](https://en.wikipedia.org/wiki/Problem_solving) Solving problems sometimes involves dealing with [pragmatics](https://en.wikipedia.org/wiki/Pragmatics), the way that context contributes to meaning, and [semantics](https://en.wikipedia.org/wiki/Semantics), the interpretation of the problem. The **ability** to **understand** what the **end goal** of the problem is, and **what rules could be applied** represents the key to solving the problem. Sometimes the problem requires [abstract thinking](https://en.wikipedia.org/wiki/Abstract_thinking) or coming up with a creative solution.
-    > 
+
 - 문제는 크게 두 종류로 나뉘는데 잘 정의된 문제와 그렇지 않은 문제이다. 잘 정의된 문제는 구체적인 목적 ( Specific end goal ) 과 명확히 기대되는 해 ( Clearly expected solution ) 을 가지는 것을 의미하고, 잘 정의되지 않은 문제는 앞서 말한 두 가지가 명확하게 정의되지 않은 것이다.
 - 그렇다면 목적 ( Goal ) 과 해 ( Solution ) 을 더 구체화하면 어떤 형태로 나타낼 수 있을까 ?
 
-컴퓨터 과학적 관점에서 잘 정의된 문제란, 다음과 같은 요소들을 가지는 것을 의미한다.
+## 컴퓨터 과학적 관점
+- 잘 정의된 문제란, 다음과 같은 요소들을 가지는 것을 의미한다.
+    1. Initial state 가 주어진다. ( ***initial state*** )
+    2. 각 상태에 대해서 수행할 수 있는 actions 들에 대한 묘사가 주어진다. ( ***actions*** )
+    3. action 으로 인한 transition model 이 주어진다. 이때 어떤 state s 에서 action a 를 통해서 도달할 수 있는 다음 상태들의 집합을 successor 라고 한다. ( ***transition model* / *successor*** )
+    4. 어떤 상태가 goal 과 일치하는 지 판단할 수 있는 goal test 가 존재한다. 경우에 따라서는 복수개의 goal state 존재할 수 있다. ( ***goal test*** )
+    5. initital state / actions / transition model 은 암묵적으로 state space of problem 을 정의한다. 이때 state space 는 사실상 node 가 state 이고 edge 가 action 인 directed graph 구성한다고 생각할 수 있다. 이때 sequence of actions 를 경로(path) 라고 한다.( ***state space*** ) 
+    6. 각 경로 ( **sequence of actions** ) 에 대한 path cost 함수가 주어진다. problem solving agent 는 각 경로에 대한 performance measure function 를 통해서 cost 를 계산한다. ( **path cost / step cost** )
 
-1. Initial state 가 주어진다. ( ***initial state*** )
-2. 각 상태에 대해서 수행할 수 있는 actions 들에 대한 묘사가 주어진다. ( ***actions*** )
-3. action 으로 인한 transition model 이 주어진다. 이때 어떤 state s 에서 action a 를 통해서 도달할 수 있는 다음 상태들의 집합을 successor 라고 한다. ( ***transition model* / *successor*** )
-4. 어떤 상태가 goal 과 일치하는 지 판단할 수 있는 goal test 가 존재한다. 경우에 따라서는 복수개의 goal state 존재할 수 있다. ( ***goal test*** )
-5. initital state / actions / transition model 은 암묵적으로 state space of problem 을 정의한다. 이때 state space 는 사실상 node 가 state 이고 edge 가 action 인 directed graph 구성한다고 생각할 수 있다. 이때 sequence of actions 를 경로(path) 라고 한다.( ***state space*** ) 
-6. 각 경로 ( **sequence of actions** ) 에 대한 path cost 함수가 주어진다. problem solving agent 는 각 경로에 대한 performance measure function 를 통해서 cost 를 계산한다. ( **path cost / step cost** )
-
-Problem 에 대한 Solution 은 initial state 에서 goal state 까지 도달할 수 있는 an action sequence 로 생각할 수 있다. 이때 quality of solution 은 path cost function ( with performance measure function ) 을 통해서 측정할 수 있으며 최소 path cost 를 가지는 solution 을 optimal solution 이라고 한다.
+- Problem 에 대한 Solution 은 initial state 에서 goal state 까지 도달할 수 있는 an action sequence 로 생각할 수 있다. 이때 quality of solution 은 path cost function ( with performance measure function ) 을 통해서 측정할 수 있으며 최소 path cost 를 가지는 solution 을 optimal solution 이라고 한다.
 
 구체적인 예시를 몇 가지 생각해보자
 
-### 1. 8-Queen Problem
+### 8-Queen Problem
 
 8개의 퀸을 서로 공격 불가능한 체스보드 위의 위치에 배치하는 문제를 8-Queen 문제라고한다. 이 문제를 어
 
@@ -38,7 +38,7 @@ Problem 에 대한 Solution 은 initial state 에서 goal state 까지 도달할
 4. **Transition model** : 퀸 하나를 추가 배치하면 추가 배치된 체스판의 상태를 반환 
 5. **Goal test :** 8 개의 퀸이 배치되어 있고 & 서로가 공격이 불가능한 상태
 
-### 2. Knuths Conjuecture
+### Knuths Conjuecture
 
 Knuths Conjuecture 자연수 4로 시작해서 [ factorial, square root, floor ] 연산을 통해서 원하는 숫자를 획득할 수 있다는 추측이다. 예를들어 5를 획득하기 위해서 다음과 Sequence of Operation 를 수행할 수 있다.
 
@@ -56,14 +56,14 @@ Knuths Conjuecture 문제에서 9를 획득하는 것을 목표로 한다면, �
 
 ![Tree](img/what_is_problem/Tree.png)
 
-정리해보면 잘 정의된 문제는
+### 정리해보면 잘 정의된 문제는
 
 1. 상태의 공간이 정의되어 있고 초기 상태가 주어져 있다.
 2. 명확한 목적이 정의되어 있고, 현재 상태와 최종 상태를 비교하여 목표 달성 여부를 알 수 있는 방법이 존재한다.
 3. 어떤 상태에서 수행할 수 있는 action 이 주어지고, 특정 상태 S 에서 A 라는 액션을 수행한 한 후 다음 상태에 대한 정보를 결정하는 State *transition model* 이 주어진다.
 4. 초기 상태에서 연속적인 Action 을 수행하여 상태를 확장해 나가면서 최종 목적 상태까지 도달했을 때 그 Sequence of actions 를 Solution 이라고 할 수 있겠다.
 
-- 그렇다면 비즈니스 관점에서 문제를 해결하는 것은 어떠한가 ?
+## 비즈니스 관점
 - 비즈니스 세계에서 어떤 문제를 정의하고 해결하기 위한 과정을 “비즈니스 전략”을 세운다고 표현
 - 전략을 세운다는 것 → 주어진 기간 동안 한정된 자원으로 어떻게 목적을 달성할 것인가 ?
 - 보통 다음과 같은 과정을 거치게 됨
@@ -92,7 +92,7 @@ Knuths Conjuecture 문제에서 9를 획득하는 것을 목표로 한다면, �
 3. 선택지 평가 및 선택하기 → 찾아낸 “행동들의 집합” 중 어떤 것을 선택하고 실행할 것인지 평가하는 과정. 이 과정에서 조직에서 특정 행위가 다른 행위보다 “낫다”는 것은 조직이 추구하는 가치를 반영하게 된다.
 4. 실행하기 → 조직적 관점에서 프로젝트를 실행하기 위해서 실행 가능한 형태의 더 작은 문제로 나눈 후 작은 문제를 해결하는 과정
 
-## 정리해보면
+# 정리해보면
 
 - 잘 정의된 문제는 명확한 목적과 그를 달성하기위한 솔루션이 존재한다.
 - 따라서 문제라는 것은 어떠한 **목적**을 달성하기 위한 과정에서 **목적의 달성을 방해하는 것**
@@ -111,6 +111,6 @@ Knuths Conjuecture 문제에서 9를 획득하는 것을 목표로 한다면, �
 3. [ 고객이 겪는 특정한 문제 ] 를 해결하기 위해 세부 문제를 정의 하여 솔루션을 찾는다. 그리고 그 하위 레이어에서는 다시 반복적으로 “목적” / “원인” / “해결” 을 위한 과정으로서 프로젝트가 정의된다.
 4. 그리고 최 하위의 실행 Layer 에서는 상위 Layer 에서의 문제를 해결하기 위해 Project Management 과정을 통해서 프로젝트를 실행하여 문제를 해결한다.
 
-이때 Lean StartUp 의 방법론은 구체적 실행 Layer 에서 “측정” 을 통해서 “현재 상태”를 정량적인 수치를 통해서 구체화하고,  수행한 Action 에 대해 즉각적인 피드백을 통해서 “유효한 학습”을 누적해 나가는 것을 강조하고 있다.
-
 ![Lean](img/what_is_problem/Lean.png)
+
+이때 Lean StartUp 의 방법론은 구체적 실행 Layer 에서 “측정” 을 통해서 “현재 상태”를 정량적인 수치를 통해서 구체화하고,  수행한 Action 에 대해 즉각적인 피드백을 통해서 “유효한 학습”을 누적해 나가는 것을 강조하고 있다.
