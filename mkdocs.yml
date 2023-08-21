@@ -18,6 +18,8 @@ nav:
     - mathematics/2023-06-11-modern-mathematics.md
     - mathematics/2023-06-01-completeness_soundness_consistency.md
     - mathematics/2023-07-10-analysis-basic.md
+    - mathematics/2023-06-11-formal_system.md
+    - mathematics/2023-07-10-tensor.md
 
 plugins:
   - search
