@@ -96,23 +96,23 @@
     - S2 ( 타다 ) 가 없는 상태에서는 균형 가격하에서, 위 그림과 같이 A 영역을 소비자 잉여, B 영역을 생산자 잉여로한다. 이 때 경제적 후생은 A + B 로 정의된다.
 
         <div style="text-align: center;">
-        <img src="img/innovation/1.png" alt="drawing" style="width:50%;"/>
+        <img src="../img/innovation/1.png" alt="drawing" style="width:50%;"/>
         </div>
         
     - 이제 S2 가 추가된 상황에서 균형 가격은 재조정된다. 그러면 새로운 균형 가격 하에서 경제적 후생은 아래  C + D 영역으로 확대된다. 즉 경제적 후생이 증가한 것이다. 또한 조금 더 탄력적인 S2 가 시장에 유입됨에 따라서 시장의 공급 탄력성이 증가했다.
         
         <div style="text-align: center;">
-        <img src="img/innovation/2.png" alt="drawing" style="width:50%;"/>
+        <img src="../img/innovation/2.png" alt="drawing" style="width:50%;"/>
         </div>
         
     - S2 가 추가된 새로운 균형 가격 하에서 생산자 편익의 분배를 살펴보자. 공급 곡선은 한계 비용 곡선과 동일하다. 따라서 규제에 따른 비용을 내지 않는 타다의 공급 곡선 S2 는 일반 택시의 공급 곡선 S1 보다 기울기가 낮을 수 밖에 없다. ( 동일한 가격에 대해서 더 많은 양을 제공할 수 있다. ) 이에 따라서 S1 ( 기존 사업자 ) 에게는 E 만큼의 생산자 편익이 돌아가지만, S2 ( 타다 ) 에게는 E + F 만큼의 생산자 편익이 돌아가게 된다. 사회적 총 편익은 늘었지만 생산자 편익의 분배에 있어서 차이가 발생했다. 이는 형평성에 맞지 않다. 박재욱 대표가 주장하는 것 처럼 공급의 탄력성이 증가함에 따라 소비자의 편익이 증가했지만, 이준석 의원의 주장대로 규제에 따른 비용구조로 차이에 기인한 분배의 문제 존재한다.
         <div style="text-align: center;">
-        <img src="img/innovation/3.png" alt="drawing" style="width:50%;"/>
+        <img src="../img/innovation/3.png" alt="drawing" style="width:50%;"/>
         </div>
     
     - 박재욱 대표는 위 상황에서도 D1 → D2 라는 수요의 증대를 통해서 ( 모빌리티 시장의 개척과 확대 ) 모두가 승리할 수 있다고 이야기한다.
         <div style="text-align: center;">
-        <img src="img/innovation/4.png" alt="drawing" style="width:50%;"/>
+        <img src="../img/innovation/4.png" alt="drawing" style="width:50%;"/>
         </div>
 
 ---
