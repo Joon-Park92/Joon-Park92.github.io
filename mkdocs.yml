@@ -8,6 +8,7 @@ nav:
     - index.md
     - Think:
       - Problem : what_is_problem.md
+      - Innovation : what_is_innovation.md
     - Project:
       - project.md
   - Programming:
