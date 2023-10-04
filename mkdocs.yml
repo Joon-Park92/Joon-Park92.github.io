@@ -6,11 +6,11 @@ site_url: https://Joon-Park92.github.io
 nav:
   - Introduction:
     - index.md
-    - Think:
-      - Problem : what_is_problem.md
-      - Innovation : what_is_innovation.md
-    - Project:
-      - project.md
+  - Think:
+    - Problem : what_is_problem.md
+    - Innovation : what_is_innovation.md
+  - Project:
+    - project.md
   - Programming:
     - DB:  
       - 2023-06-06-db-transaction.md
