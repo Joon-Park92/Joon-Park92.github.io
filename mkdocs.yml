@@ -5,24 +5,24 @@ site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
   - Introduction:
-    - index.md
+      - index.md
   - Think:
-    - Problem : what_is_problem.md
-    - Innovation : what_is_innovation.md
-    - Growth : exponential_growth.md
-    - Periodic_Phenomenon : periodic_phenomenon.md
+      - Problem: what_is_problem.md
+      - Innovation: what_is_innovation.md
+      - Growth: exponential_growth.md
+      - Periodic_Phenomenon: periodic_phenomenon.md
   - Project:
-    - project.md
+      - project.md
   - Programming:
-    - DB:  
-      - 2023-06-06-db-transaction.md
+      - DB:
+          - programming/db/2023-06-06-db-transaction.md
   - Mathematics:
-    - mathematics/2023-06-01-distance_vs_metric_vs_norm.md
-    - mathematics/2023-06-11-modern-mathematics.md
-    - mathematics/2023-06-01-completeness_soundness_consistency.md
-    - mathematics/2023-07-10-analysis-basic.md
-    - mathematics/2023-06-11-formal_system.md
-    - mathematics/2023-07-10-tensor.md
+      - mathematics/2023-06-01-distance_vs_metric_vs_norm.md
+      - mathematics/2023-06-11-modern-mathematics.md
+      - mathematics/2023-06-01-completeness_soundness_consistency.md
+      - mathematics/2023-07-10-analysis-basic.md
+      - mathematics/2023-06-11-formal_system.md
+      - mathematics/2023-07-10-tensor.md
 
 plugins:
   - search
@@ -51,7 +51,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: '!!python/name:pymdownx.emoji.to_svg'
+      emoji_generator: "!!python/name:pymdownx.emoji.to_svg"
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -78,7 +78,7 @@ theme:
 
   palette:
     # Light mode
-    - media: '(prefers-color-scheme: light)'
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue grey
       accent: light blue
@@ -87,7 +87,7 @@ theme:
         name: Switch to dark mode
 
     # Dark mode
-    - media: '(prefers-color-scheme: dark)'
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue grey
       accent: light blue
