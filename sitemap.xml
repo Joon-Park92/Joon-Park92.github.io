@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://Joon-Park92.github.io/2023-06-06-db-transaction/</loc>
-         <lastmod>2024-02-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://Joon-Park92.github.io/exponential_growth/</loc>
          <lastmod>2024-02-13</lastmod>
          <changefreq>daily</changefreq>
@@ -72,6 +67,11 @@
     </url>
     <url>
          <loc>https://Joon-Park92.github.io/newsletter/0_newsletter_index/</loc>
+         <lastmod>2024-02-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Joon-Park92.github.io/programming/db/2023-06-06-db-transaction/</loc>
          <lastmod>2024-02-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
