@@ -16,6 +16,8 @@ nav:
   - Programming:
       - DB:
           - programming/db/2023-06-06-db-transaction.md
+      - Kubernetes:
+          - programming/kubernetes/2023-06-06-k8s-basic.md
   - Mathematics:
       - mathematics/2023-06-01-distance_vs_metric_vs_norm.md
       - mathematics/2023-06-11-modern-mathematics.md
