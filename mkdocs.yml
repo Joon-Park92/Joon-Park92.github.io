@@ -25,6 +25,8 @@ nav:
       - mathematics/2023-07-10-analysis-basic.md
       - mathematics/2023-06-11-formal_system.md
       - mathematics/2023-07-10-tensor.md
+  - Papers:
+      - two_step_ml_enable_optimized_nanoparticle_synthesis.md
 
 plugins:
   - search
