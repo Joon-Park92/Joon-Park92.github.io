@@ -62,7 +62,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.extra  # GFM과 유사한 기능 제공
-  - pymdownx.githubemoji  # GitHub 이모지 지원
+  # - pymdownx.githubemoji  # GitHub 이모지 지원
   - pymdownx.superfences  # 코드 블록 내부에 테이블 등을 넣을 수 있음
   - pymdownx.tabbed:
       alternate_style: true
