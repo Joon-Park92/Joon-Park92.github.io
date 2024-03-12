@@ -13,7 +13,7 @@ dependencies = [
     "mkdocs-minify-plugin",
     "mkdocs-material",
     "mkdocs-section-index",
-    "pymdown-extensions",
+    "pymdown-extensions>=10.7.1",
     "mkdocs-newsletter",
     "mkdocs-autolinks-plugin>=0.5.0",
     "mkdocs-exclude-search>=0.6.4",
