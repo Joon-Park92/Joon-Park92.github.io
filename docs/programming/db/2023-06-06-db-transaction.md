@@ -20,6 +20,7 @@ description: description is empty
 - Durability (지속성) - 성공적으로 반영된 트랜잭션은 영원히 반영되어야한다는 것.
 
 ISOLATION LEVEL 은 다음과 같이 네 종류로 나뉜다.
+
 1. READ UNCOMMITTED
 2. READ COMMITTED
 3. REPEATABLE READ
