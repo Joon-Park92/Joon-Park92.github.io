@@ -10,18 +10,18 @@ author: sean
 description: description is empty
 ---
 - [1. TRANSACTION](#1-transaction)
-    - [1.0.1. READ UNCOMMITTED - DIRTY READ](#101-read-uncommitted---dirty-read)
-    - [1.0.2. REPEATABLE READ - EXAMPLE](#102-repeatable-read---example)
-    - [1.0.3. REPEATABLE READ - PHANTOM READ 1](#103-repeatable-read---phantom-read-1)
-    - [1.0.4. REPEATABLE READ - PHANTOM READ 2](#104-repeatable-read---phantom-read-2)
-    - [1.0.5. SERIALIZATION](#105-serialization)
+  - [1.1. READ UNCOMMITTED - DIRTY READ](#11-read-uncommitted---dirty-read)
+  - [1.2. REPEATABLE READ - EXAMPLE](#12-repeatable-read---example)
+  - [1.3. REPEATABLE READ - PHANTOM READ 1](#13-repeatable-read---phantom-read-1)
+  - [1.4. REPEATABLE READ - PHANTOM READ 2](#14-repeatable-read---phantom-read-2)
+  - [1.5. SERIALIZATION](#15-serialization)
 - [2. LOCK](#2-lock)
-    - [2.0.1. Shared Lock vs Exclusive Lock](#201-shared-lock-vs-exclusive-lock)
-    - [2.0.2. MySQL Engine Lock](#202-mysql-engine-lock)
-    - [2.0.3. InnoDB Engine Lock](#203-innodb-engine-lock)
-    - [2.0.4. InnoDB ?](#204-innodb-)
-    - [2.0.5. InnoDB Engine Lock](#205-innodb-engine-lock)
-    - [2.0.6. 인덱스와 잠금](#206-인덱스와-잠금)
+  - [2.1. Shared Lock vs Exclusive Lock](#21-shared-lock-vs-exclusive-lock)
+  - [2.2. MySQL Engine Lock](#22-mysql-engine-lock)
+  - [2.3. InnoDB Engine Lock](#23-innodb-engine-lock)
+  - [2.4. InnoDB ?](#24-innodb-)
+  - [2.5. InnoDB Engine Lock](#25-innodb-engine-lock)
+  - [2.6. 인덱스와 잠금](#26-인덱스와-잠금)
 - [3. Ref](#3-ref)
 - [4. \[노트\] 정리하고 이해 안된 것들](#4-노트-정리하고-이해-안된-것들)
 
@@ -51,7 +51,7 @@ ISOLATION LEVEL 은 다음과 같이 네 종류로 나뉜다.
 | REPEATABLE READ  | NO         | NO                  | YES          |
 | TRANSACTIONAL    | NO         | NO                  | YES          |
 
-### 1.0.1. READ UNCOMMITTED - DIRTY READ
+## 1.1. READ UNCOMMITTED - DIRTY READ
 - **더티 리드 ( DIRTY READ )** - 한 트랜잭션이 수행중일 때 다른 트랜잭션이 Commit 하지 않은 값을 읽을 수 있다는 것.  
 - **반복 가능하지 않은 조회 ( NON-REPEATABLE READ )** - 한 트랜잭션 내의 같은 행에 두 번 이상 조회했는데 그 값이 다른 경우.
 
@@ -71,7 +71,7 @@ ISOLATION LEVEL 은 다음과 같이 네 종류로 나뉜다.
 Transaction B 의 7번 라인에서 Transaction A 에서 [아직 커밋되지 않은] 수정된 amount 155의 값을 확인할 수 있다.
 
 
-### 1.0.2. REPEATABLE READ - EXAMPLE
+## 1.2. REPEATABLE READ - EXAMPLE
 하나의 트랜잭션이 수정한 행을 다른 트랜잭션이 수정할 수 없도록 막아준다. 그러나 새로운 행을 추가하는 것은 막지 않는다. 따라서 이후에 추가된 행이 발견될 수도 있다.
 
 |    | Transaction A                                     |                   Transaction B                   |
@@ -94,7 +94,7 @@ Transaction 이 종료된 시점인 11번 라인에서는 Transaction A 에 의�
 기본 적으로 행에 대한 값을 저장해두는 것
 
 ---
-### 1.0.3. REPEATABLE READ - PHANTOM READ 1
+## 1.3. REPEATABLE READ - PHANTOM READ 1
 **팬텀 리드 ( PHANTOM READ )** - **한 트랜잭션 내에서 동일한 쿼리를 보냈는데 조회 결과가 다른 경우**를 의미한다.
 
 |    | Transaction A                                    | Transaction B                                    |
@@ -117,7 +117,7 @@ Transaction 이 종료된 시점인 11번 라인에서는 Transaction A 에 의�
 9번 **오른쪽은 내가 선택한게 아닌데 → 업데이트 됨** 이런 것을 *팬텀리드*라고 한다.  
 
 
-### 1.0.4. REPEATABLE READ - PHANTOM READ 2
+## 1.4. REPEATABLE READ - PHANTOM READ 2
 
 |    | Transaction A                                    | Transaction B                                    |
 |----|--------------------------------------------------|--------------------------------------------------|
@@ -142,7 +142,7 @@ Transaction 이 종료된 시점인 11번 라인에서는 Transaction A 에 의�
 참고로 PostgreSQL 에서는 Phantom read 현상이 발생하지 않는다. 
 - [https://www.postgresql.kr/blog/pg_phantom_read.html](https://www.postgresql.kr/blog/pg_phantom_read.html)
 
-### 1.0.5. SERIALIZATION
+## 1.5. SERIALIZATION
 말 그대로 직렬화해서 트랜잭션을 순차적으로 처리한다는 것  
 무조건 락을 획득해야하며, 모든 read 는 sharable lock 개념으로 적용된다.
 동시성의 이슈에서 자유로워지지만, 동시에 성능이 매우 저하되어서 현업에서는 잘 사용하지 않는다.  
@@ -154,7 +154,7 @@ Transaction 이 종료된 시점인 11번 라인에서는 Transaction A 에 의�
 Lock 은 데이터에 동시 엑세스를 제어하는 데 사용되는 메커니즘으로, 여러 트랜젝션이 동일한 데이터를 동시에 수정하지 못하게 함으로써 데이터의 일관성과 무결성을 보장한다.  
 mysql 은 dbengine 을 여러개 쓸 수 있어서 여러개 락이 있음
 
-### 2.0.1. Shared Lock vs Exclusive Lock
+## 2.1. Shared Lock vs Exclusive Lock
 **Shared lock (공유 잠금):**
 공유 잠금은 다른 트랜잭션에서도 읽기 작업을 수행할 수 있도록 허용하는 잠금 유형입니다. 즉, 여러 트랜잭션이 동일한 자원에 대한 읽기 작업을 동시에 수행할 수 있습니다. 공유 잠금은 동시성을 향상시키는 데 사용될 수 있습니다.
 
@@ -164,7 +164,7 @@ mysql 은 dbengine 을 여러개 쓸 수 있어서 여러개 락이 있음
 **Blocking (블로킹):**
 베타 잠금으로 인한 경합이 발생해 트랜잭션 작업을 진행하지 못하는 상태를 의미한다. 선점한 트랜잭션이 COMMIT 되거나 ROLLBACK되어야 진행이 가능하다.
 
-### 2.0.2. MySQL Engine Lock 
+## 2.2. MySQL Engine Lock 
 1. Table Lock:
     - 테이블 락(Table Lock)은 데이터베이스에서 특정 테이블에 대한 잠금을 설정하는 것을 의미합니다.
     - 테이블 락은 다른 사용자들이 해당 테이블에 대한 읽기 또는 쓰기 작업을 수행하지 못하도록 차단합니다.
@@ -189,9 +189,9 @@ mysql 은 dbengine 을 여러개 쓸 수 있어서 여러개 락이 있음
     - `SELECT IS_FREE_LOCK('lock');` lock 이라는 문자열에 대해 잠금이 설정되어 있는지 확인 걸려있으면 0, 걸려있지 않으면 1
     - `SELECT RELEASE_LOCK('lock');` lock 이라는 문자열에 대해 잠금 해제 성공 시 1, 실패 시 NULL
 
-### 2.0.3. InnoDB Engine Lock
+## 2.3. InnoDB Engine Lock
 
-### 2.0.4. InnoDB ?
+## 2.4. InnoDB ?
 - InnoDB는 MySQL에서 사용되는 관계형 데이터베이스 관리 시스템(RDBMS)의 한 종류인 스토리지 엔진(Storage Engine)입니다.   
 - InnoDB 엔진은 트랜잭션 지원, 높은 동시성, 데이터 무결성, 안정성 및 복구 기능 등을 갖춘 기능적으로 완전한 엔진입니다.  
 
@@ -204,7 +204,7 @@ InnoDB 엔진의 특징과 기능은 다음과 같습니다:
 5. 데이터 복구: InnoDB는 데이터베이스의 안정성과 복구 기능을 강화하기 위해 로그 기반의 복구 메커니즘을 제공합니다. 이를 통해 시스템 장애 발생 시 데이터의 일관성을 유지하고 복구할 수 있습니다.
 6. 크기 조정: InnoDB는 테이블과 인덱스의 크기를 동적으로 조정할 수 있는 기능을 제공합니다. 이는 데이터의 용량 증가 또는 감소에 유연하게 대응할 수 있도록 도와줍니다.
 
-### 2.0.5. InnoDB Engine Lock
+## 2.5. InnoDB Engine Lock
 
 1. **Row-Level Lock (Shared Lock / Exclusive Lock):**  
     - Row-Level Lock은 특정 행에 대한 잠금을 설정하는 것을 말합니다.
@@ -316,7 +316,7 @@ InnoDB 엔진의 특징과 기능은 다음과 같습니다:
    - 이를 통해 각 트랜잭션이 고유한 자동 증가 값을 얻을 수 있게 됩니다.
 
 
-### 2.0.6. 인덱스와 잠금
+## 2.6. 인덱스와 잠금
 
 ```sql
 UPDATE t SET c='col' WHERE A AND B
