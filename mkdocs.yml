@@ -1,37 +1,35 @@
----
 site_name: Sean
 site_description: My personal digital garden
 site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
   - Introduction:
-      - index.md
+      - c0295d5c-ac9d-4a38-a890-a550d8508304.md
   - Think:
-      - Problem: what_is_problem.md
-      - Innovation: what_is_innovation.md
-      - Growth: exponential_growth.md
-      - Periodic_Phenomenon: periodic_phenomenon.md
-  - Project:
-      - project.md
+      - Problem: 71af9498-4da5-490e-8ca0-41b0d11cc8d7.md
+      - Innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
+      - Growth: 7ba945a8-e583-4b99-bdd8-5c0f84118c54.md
+      - Periodic_Phenomenon: bd21b1dc-6064-48b1-8894-18693847e844.md
   - Programming:
-      - DB:
-          - programming/db/2023-06-06-db-transaction.md
-      - Kubernetes:
-          - programming/k8s/2023-06-06-k8s-basic.md
+      - Infra:
+          - DB:
+              - 67718e56-966a-4592-8c6c-b5828d86dc56.md
+          - Terraform:
+              - 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
   - Mathematics:
-      - mathematics/2023-06-01-distance_vs_metric_vs_norm.md
-      - mathematics/2023-06-11-modern-mathematics.md
-      - mathematics/2023-06-01-completeness_soundness_consistency.md
-      - mathematics/2023-07-10-analysis-basic.md
-      - mathematics/2023-06-11-formal_system.md
-      - mathematics/2023-07-10-tensor.md
+      - b199b805-3a46-4d2e-9293-c78266395c1f.md
+      - fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
+      - ecb6dfa9-eb48-4183-8e04-0b2d87f2fcea.md
+      - 5457aa52-7690-4906-afc2-8243ab67a390.md
+      - 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
+      - 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
   - Papers:
-      - two_step_ml_enable_optimized_nanoparticle_synthesis.md
-
+      - 19a96d58-26fc-4835-a667-6e21c909a0f1.md
 plugins:
   - search
   - exclude-search:
-      exclude: [newsletter/*]
+      exclude:
+        - newsletter/*
   - autolinks
   - git-revision-date-localized:
       type: timeago
@@ -39,7 +37,6 @@ plugins:
       minify_html: true
   - section-index
   - mkdocs-newsletter
-
 markdown_extensions:
   - abbr
   - admonition
@@ -61,9 +58,8 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.extra  # GFM과 유사한 기능 제공
-  # - pymdownx.githubemoji  # GitHub 이모지 지원
-  - pymdownx.superfences  # 코드 블록 내부에 테이블 등을 넣을 수 있음
+  - pymdownx.extra
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -81,9 +77,7 @@ theme:
     - content.code.annotate
     - search.suggest
     - search.highlight
-
   palette:
-    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue grey
@@ -91,8 +85,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-
-    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue grey
@@ -100,19 +92,18 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-
-extra_css: [stylesheets/extra.css, stylesheets/links.css]
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/links.css
 extra_javascript:
   - path: assets/js/mathjaxhelper.js
     defer: true
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
-
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/lyz-code
     - icon: fontawesome/solid/rss
       link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index
-
 repo_name: Joon-Park92/Joon-Park92.github.io
 repo_url: https://github.com/Joon-Park92/Joon-Park92.github.io
