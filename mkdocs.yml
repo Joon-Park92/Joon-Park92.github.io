@@ -1,37 +1,31 @@
----
 site_name: Sean
 site_description: My personal digital garden
 site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
-  - Introduction:
-      - index.md
-  - Think:
-      - Problem: what_is_problem.md
-      - Innovation: what_is_innovation.md
-      - Growth: exponential_growth.md
-      - Periodic_Phenomenon: periodic_phenomenon.md
-  - Project:
-      - project.md
-  - Programming:
-      - DB:
-          - programming/db/2023-06-06-db-transaction.md
-      - Kubernetes:
-          - programming/k8s/2023-06-06-k8s-basic.md
-  - Mathematics:
-      - mathematics/2023-06-01-distance_vs_metric_vs_norm.md
-      - mathematics/2023-06-11-modern-mathematics.md
-      - mathematics/2023-06-01-completeness_soundness_consistency.md
-      - mathematics/2023-07-10-analysis-basic.md
-      - mathematics/2023-06-11-formal_system.md
-      - mathematics/2023-07-10-tensor.md
-  - Papers:
-      - two_step_ml_enable_optimized_nanoparticle_synthesis.md
-
+  - "0":
+      - Introduction:
+          - index: epics/para-area/TSK-1300-blog/docs/index.md
+  - "1":
+      - Think: []
+  - "2":
+      - Programming: []
+  - "3":
+      - Mathematics:
+          - 2023-06-01-distance_vs_metric_vs_norm: epics/para-area/TSK-1300-blog/docs/2023-06-01-distance_vs_metric_vs_norm.md
+          - 2023-06-11-modern-mathematics: epics/para-area/TSK-1300-blog/docs/2023-06-11-modern-mathematics.md
+          - 2023-06-01-completeness_soundness_consistency: epics/para-area/TSK-1300-blog/docs/2023-06-01-completeness_soundness_consistency.md
+          - 2023-07-10-analysis-basic: epics/para-area/TSK-1300-blog/docs/2023-07-10-analysis-basic.md
+          - 2023-06-11-formal_system: epics/para-area/TSK-1300-blog/docs/2023-06-11-formal_system.md
+          - 2023-07-10-tensor: epics/para-area/TSK-1300-blog/docs/2023-07-10-tensor.md
+  - "4":
+      - Papers:
+          - two_step_ml_enable_optimized_nanoparticle_synthesis: epics/para-area/TSK-1300-blog/docs/two_step_ml_enable_optimized_nanoparticle_synthesis.md
 plugins:
   - search
   - exclude-search:
-      exclude: [newsletter/*]
+      exclude:
+        - newsletter/*
   - autolinks
   - git-revision-date-localized:
       type: timeago
@@ -39,7 +33,6 @@ plugins:
       minify_html: true
   - section-index
   - mkdocs-newsletter
-
 markdown_extensions:
   - abbr
   - admonition
@@ -61,9 +54,8 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.extra  # GFM과 유사한 기능 제공
-  # - pymdownx.githubemoji  # GitHub 이모지 지원
-  - pymdownx.superfences  # 코드 블록 내부에 테이블 등을 넣을 수 있음
+  - pymdownx.extra
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -81,9 +73,7 @@ theme:
     - content.code.annotate
     - search.suggest
     - search.highlight
-
   palette:
-    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue grey
@@ -91,8 +81,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-
-    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue grey
@@ -100,19 +88,18 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-
-extra_css: [stylesheets/extra.css, stylesheets/links.css]
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/links.css
 extra_javascript:
   - path: assets/js/mathjaxhelper.js
     defer: true
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
-
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/lyz-code
     - icon: fontawesome/solid/rss
       link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index
-
 repo_name: Joon-Park92/Joon-Park92.github.io
 repo_url: https://github.com/Joon-Park92/Joon-Park92.github.io
