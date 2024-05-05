@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform"]
 lock_version = "4.4.1"
-content_hash = "sha256:7bdeb53070fc4eb07fea4d233681eca86ce67dcbba4b317830aa1c9659110618"
+content_hash = "sha256:6d7d30c2e2d2a64480362af7854a12d7d6e8dd34f1038cc051ea99f80596d7c1"
 
 [[package]]
 name = "babel"
@@ -252,6 +252,14 @@ files = [
 ]
 
 [[package]]
+name = "editorconfig"
+version = "0.12.4"
+summary = "EditorConfig File Locator and Interpreter for Python"
+files = [
+    {file = "EditorConfig-0.12.4.tar.gz", hash = "sha256:24857fa1793917dd9ccf0c7810a07e05404ce9b823521c7dce22a4fb5d125f80"},
+]
+
+[[package]]
 name = "future"
 version = "0.18.2"
 requires_python = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
@@ -384,6 +392,18 @@ dependencies = [
 files = [
     {file = "Jinja2-3.1.2-py3-none-any.whl", hash = "sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61"},
     {file = "Jinja2-3.1.2.tar.gz", hash = "sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852"},
+]
+
+[[package]]
+name = "jsbeautifier"
+version = "1.15.1"
+summary = "JavaScript unobfuscator and beautifier."
+dependencies = [
+    "editorconfig>=0.12.2",
+    "six>=1.13.0",
+]
+files = [
+    {file = "jsbeautifier-1.15.1.tar.gz", hash = "sha256:ebd733b560704c602d744eafc839db60a1ee9326e30a2a80c4adb8718adc1b24"},
 ]
 
 [[package]]
@@ -597,6 +617,24 @@ summary = "Extension pack for Python Markdown and MkDocs Material."
 files = [
     {file = "mkdocs_material_extensions-1.3-py3-none-any.whl", hash = "sha256:0297cc48ba68a9fdd1ef3780a3b41b534b0d0df1d1181a44676fda5f464eeadc"},
     {file = "mkdocs_material_extensions-1.3.tar.gz", hash = "sha256:f0446091503acb110a7cab9349cbc90eeac51b58d1caa92a704a81ca1e24ddbd"},
+]
+
+[[package]]
+name = "mkdocs-mermaid2-plugin"
+version = "1.1.1"
+requires_python = ">=3.6"
+summary = "A MkDocs plugin for including mermaid graphs in markdown sources"
+dependencies = [
+    "beautifulsoup4>=4.6.3",
+    "jsbeautifier",
+    "mkdocs>=1.0.4",
+    "pymdown-extensions>=8.0",
+    "requests",
+    "setuptools>=18.5",
+]
+files = [
+    {file = "mkdocs-mermaid2-plugin-1.1.1.tar.gz", hash = "sha256:bea5f3cbe6cb76bad21b81e49a01e074427ed466666c5d404e62fe8698bc2d7c"},
+    {file = "mkdocs_mermaid2_plugin-1.1.1-py3-none-any.whl", hash = "sha256:4e25876b59d1e151ca33a467207b346404b4a246f4f24af5e44c32408e175882"},
 ]
 
 [[package]]
@@ -1098,6 +1136,16 @@ summary = "Python helper for Semantic Versioning (http://semver.org/)"
 files = [
     {file = "semver-2.13.0-py2.py3-none-any.whl", hash = "sha256:ced8b23dceb22134307c1b8abfa523da14198793d9787ac838e70e29e77458d4"},
     {file = "semver-2.13.0.tar.gz", hash = "sha256:fa0fe2722ee1c3f57eac478820c3a5ae2f624af8264cbdf9000c980ff7f75e3f"},
+]
+
+[[package]]
+name = "setuptools"
+version = "69.5.1"
+requires_python = ">=3.8"
+summary = "Easily download, build, install, upgrade, and uninstall Python packages"
+files = [
+    {file = "setuptools-69.5.1-py3-none-any.whl", hash = "sha256:c636ac361bc47580504644275c9ad802c50415c7522212252c033bd15f301f32"},
+    {file = "setuptools-69.5.1.tar.gz", hash = "sha256:6c1fccdac05a97e598fb0ae3bbed5904ccb317337a51139dcd51453611bbb987"},
 ]
 
 [[package]]

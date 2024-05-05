@@ -18,6 +18,7 @@ dependencies = [
     "mkdocs-autolinks-plugin>=0.5.0",
     "mkdocs-exclude-search>=0.6.4",
     "python-markdown-math",
+    "mkdocs-mermaid2-plugin>=1.1.1",
 ]
 requires-python = ">=3.9"
 license = {text = "MIT"}
