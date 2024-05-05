@@ -70,6 +70,12 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - mdx_math
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
 theme:
   name: material
   custom_dir: theme
