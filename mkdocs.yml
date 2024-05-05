@@ -40,6 +40,7 @@ plugins:
       minify_html: true
   - section-index
   - mkdocs-newsletter
+  - mermaid2
 markdown_extensions:
   - abbr
   - admonition
