@@ -3,8 +3,7 @@ site_description: My personal digital garden
 site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
-  - Introduction:
-      - c0295d5c-ac9d-4a38-a890-a550d8508304.md
+  - Introduction: c0295d5c-ac9d-4a38-a890-a550d8508304.md
   - Think:
       - Problem: 71af9498-4da5-490e-8ca0-41b0d11cc8d7.md
       - Innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
@@ -107,7 +106,7 @@ extra_css:
   - stylesheets/links.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
-  - assets/js/mathjaxhelper.js
+  - assets/js/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra:
