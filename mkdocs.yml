@@ -9,6 +9,9 @@ nav:
       - Innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
       - Growth: 7ba945a8-e583-4b99-bdd8-5c0f84118c54.md
       - Periodic_Phenomenon: bd21b1dc-6064-48b1-8894-18693847e844.md
+  - Machine_Learning:
+      - Recommendation:
+          - 430c4345-4509-464b-afa1-839643cb3e7f.md
   - Programming:
       - Network:
           - 8477ba61-0609-4ac2-b988-7cbf8854c739.md
