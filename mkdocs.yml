@@ -51,6 +51,7 @@ markdown_extensions:
   - toc:
       permalink: ⚑
       baselevel: 2
+      toc_depth: 3
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
