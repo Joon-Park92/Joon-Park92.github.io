@@ -49,14 +49,15 @@ markdown_extensions:
   - toc:
       permalink: ⚑
       baselevel: 2
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: "!!python/name:pymdownx.emoji.to_svg"
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -71,7 +72,6 @@ markdown_extensions:
   - pymdownx.tilde
   - mdx_math
   - pymdownx.superfences:
-      # make exceptions to highlighting of code:
       custom_fences:
         - name: mermaid
           class: mermaid
@@ -106,9 +106,9 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/links.css
 extra_javascript:
-  - path: assets/js/mathjaxhelper.js
-    defer: true
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - assets/js/mathjaxhelper.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra:
   social:
     - icon: fontawesome/brands/github-alt
