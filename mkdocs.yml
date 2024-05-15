@@ -13,8 +13,10 @@ nav:
       - Recommendation:
           - 430c4345-4509-464b-afa1-839643cb3e7f.md
       - Algorithm:
-          - 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
-          - 5608e722-eb92-471f-bd22-d563272ce76f.md
+          - Gradient Boost:
+              - 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
+          - XGBoost:
+              - 5608e722-eb92-471f-bd22-d563272ce76f.md
   - Programming:
       - Network:
           - 8477ba61-0609-4ac2-b988-7cbf8854c739.md
