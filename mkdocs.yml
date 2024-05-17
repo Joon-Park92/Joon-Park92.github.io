@@ -86,6 +86,9 @@ markdown_extensions:
           format: !!python/name:mermaid2.fence_mermaid_custom
 theme:
   name: material
+  font:
+    text: Noto Sans Korean
+    code: Roboto Mono
   custom_dir: theme
   logo: img/logo.png
   features:
