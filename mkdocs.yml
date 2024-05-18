@@ -18,8 +18,11 @@ nav:
           - XGBoost:
               - 5608e722-eb92-471f-bd22-d563272ce76f.md
   - Programming:
-      - Network:
-          - 8477ba61-0609-4ac2-b988-7cbf8854c739.md
+      - Web:
+          - Network:
+              - 8477ba61-0609-4ac2-b988-7cbf8854c739.md
+          - Auth:
+              - dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
       - Infra:
           - DB:
               - 67718e56-966a-4592-8c6c-b5828d86dc56.md
