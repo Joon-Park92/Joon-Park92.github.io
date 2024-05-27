@@ -19,6 +19,7 @@ nav:
       - Web:
           - Auth:
               - auth-basic: dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
+              - social-login: d3c922e8-8eee-4d47-bfdb-54709ee13cf8.md
           - Security:
               - ca-certification: 8477ba61-0609-4ac2-b988-7cbf8854c739.md
           - Network:
