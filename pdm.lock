@@ -4,8 +4,8 @@
 [metadata]
 groups = ["default"]
 strategy = ["cross_platform"]
-lock_version = "4.4.1"
-content_hash = "sha256:6d7d30c2e2d2a64480362af7854a12d7d6e8dd34f1038cc051ea99f80596d7c1"
+lock_version = "4.4.2"
+content_hash = "sha256:fa03088671ee2098d34ed79dceca6d900c44a4480d5ed7a28fc2ed30d69faaeb"
 
 [[package]]
 name = "babel"
