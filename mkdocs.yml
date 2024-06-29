@@ -24,6 +24,7 @@ nav:
               - ca-certification: 8477ba61-0609-4ac2-b988-7cbf8854c739.md
           - Network:
               - tcp-udp: 4ebc9c2a-c6c4-4427-8ff8-056a8ccbc38b.md
+              - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
       - Infra:
           - DB:
               - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
