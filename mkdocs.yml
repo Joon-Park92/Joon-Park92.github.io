@@ -16,8 +16,9 @@ nav:
           - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
           - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
   - Economics:
-      - Index:
-          - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
+      - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
+  - Philosophy:
+      - history: 62bdf711-6616-41fe-a861-9b3b99a2e988.md
   - Programming:
       - Web:
           - Auth:
