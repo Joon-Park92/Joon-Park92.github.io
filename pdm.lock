@@ -4,8 +4,8 @@
 [metadata]
 groups = ["default"]
 strategy = ["cross_platform"]
-lock_version = "4.4.2"
-content_hash = "sha256:fa03088671ee2098d34ed79dceca6d900c44a4480d5ed7a28fc2ed30d69faaeb"
+lock_version = "4.4.1"
+content_hash = "sha256:6d7d30c2e2d2a64480362af7854a12d7d6e8dd34f1038cc051ea99f80596d7c1"
 
 [[package]]
 name = "babel"
@@ -487,7 +487,7 @@ files = [
 name = "mergedeep"
 version = "1.3.4"
 requires_python = ">=3.6"
-summary = "A deep merge function for 🐍."
+summary = "A deep merge function for ðŸ��."
 files = [
     {file = "mergedeep-1.3.4-py3-none-any.whl", hash = "sha256:70775750742b25c0d8f36c55aed03d24c3384d17c951b3175d898bd778ef0307"},
     {file = "mergedeep-1.3.4.tar.gz", hash = "sha256:0096d52e9dad9939c3d975a774666af186eda617e6ca84df4c94dec30004f2a8"},
@@ -579,7 +579,7 @@ files = [
 
 [[package]]
 name = "mkdocs-material"
-version = "9.5.29"
+version = "9.5.30"
 requires_python = ">=3.8"
 summary = "Documentation that simply works"
 dependencies = [
@@ -596,8 +596,8 @@ dependencies = [
     "requests~=2.26",
 ]
 files = [
-    {file = "mkdocs_material-9.5.29-py3-none-any.whl", hash = "sha256:afc1f508e2662ded95f0a35a329e8a5acd73ee88ca07ba73836eb6fcdae5d8b4"},
-    {file = "mkdocs_material-9.5.29.tar.gz", hash = "sha256:3e977598ec15a4ddad5c4dfc9e08edab6023edb51e88f0729bd27be77e3d322a"},
+    {file = "mkdocs_material-9.5.30-py3-none-any.whl", hash = "sha256:fc070689c5250a180e9b9d79d8491ef9a3a7acb240db0728728d6c31eeb131d4"},
+    {file = "mkdocs_material-9.5.30.tar.gz", hash = "sha256:3fd417dd42d679e3ba08b9e2d72cd8b8af142cc4a3969676ad6b00993dd182ec"},
 ]
 
 [[package]]
