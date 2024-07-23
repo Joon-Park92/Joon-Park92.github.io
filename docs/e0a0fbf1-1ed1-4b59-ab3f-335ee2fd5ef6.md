@@ -62,87 +62,89 @@ Loneliness is bodily function like hunger. Your body needs social needs. It was 
     <svg width="650" height="100" id="history-svg"></svg>
     <div class="tooltip" style="opacity: 0;"></div>
     <script>
-        // 데이터 정의
-        const data = [
-            { event: "Bipedal Hominins", yearsAgo: 4000000 },
-            { event: "Complex Activities", yearsAgo: 100000 },
-            { event: "Split from Gorillas", yearsAgoStart: 8000000, yearsAgoEnd: 6000000 },
-            { event: "Early Human Species", yearsAgo: 1500000 },
-            { event: "Migration to Asia", yearsAgo: 2000000 },
-            { event: "Migration to Europe", yearsAgo: 1500000 },
-            { event: "Migration to Australia", yearsAgo: 60000 },
-            { event: "Migration to Americas", yearsAgo: 30000 },
-            { event: "The Beginnings of Agriculture and Civilization", yearsAgo: 10000 },
-        ];
+        document.addEventListener("DOMContentLoaded", function() {
+            // 데이터 정의
+            const data = [
+                { event: "Bipedal Hominins", yearsAgo: 4000000 },
+                { event: "Complex Activities", yearsAgo: 100000 },
+                { event: "Split from Gorillas", yearsAgoStart: 8000000, yearsAgoEnd: 6000000 },
+                { event: "Early Human Species", yearsAgo: 1500000 },
+                { event: "Migration to Asia", yearsAgo: 2000000 },
+                { event: "Migration to Europe", yearsAgo: 1500000 },
+                { event: "Migration to Australia", yearsAgo: 60000 },
+                { event: "Migration to Americas", yearsAgo: 30000 },
+                { event: "The Beginnings of Agriculture and Civilization", yearsAgo: 10000 },
+            ];
 
-        // SVG 설정
-        const svg = d3.select("#history-svg"),
-              margin = {top: 20, right: 30, bottom: 40, left: 40},
-              width = +svg.attr("width") - margin.left - margin.right,
-              height = +svg.attr("height") - margin.top - margin.bottom;
+            // SVG 설정
+            const svg = d3.select("#history-svg"),
+                  margin = {top: 20, right: 30, bottom: 40, left: 40},
+                  width = +svg.attr("width") - margin.left - margin.right,
+                  height = +svg.attr("height") - margin.top - margin.bottom;
 
-        let isLogScale = true;
+            let isLogScale = true;
 
-        const xLog = d3.scaleLog()
-            .domain([10000, 8000000])
-            .range([0, width]);
+            const xLog = d3.scaleLog()
+                .domain([10000, 8000000])
+                .range([0, width]);
 
-        const xLinear = d3.scaleLinear()
-            .domain([0, 8000000])
-            .range([0, width]);
+            const xLinear = d3.scaleLinear()
+                .domain([0, 8000000])
+                .range([0, width]);
 
-        let x = xLog;
+            let x = xLog;
 
-        const xAxis = d3.axisBottom(x)
-            .tickFormat(d3.format(".0s"));
+            const xAxis = d3.axisBottom(x)
+                .tickFormat(d3.format(".0s"));
 
-        const chart = svg.append("g")
-            .attr("transform", `translate(${margin.left},${margin.top})`);
+            const chart = svg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
 
-        chart.append("g")
-            .attr("class", "x axis")
-            .attr("transform", `translate(0,${height})`)
-            .call(xAxis);
+            chart.append("g")
+                .attr("class", "x axis")
+                .attr("transform", `translate(0,${height})`)
+                .call(xAxis);
 
-        // 툴팁 설정
-        const tooltip = d3.select(".tooltip");
+            // 툴팁 설정
+            const tooltip = d3.select(".tooltip");
 
-        const bars = chart.selectAll(".bar")
-            .data(data)
-            .enter().append("rect")
-            .attr("class", "bar")
-            .attr("x", d => x(d.yearsAgoEnd || d.yearsAgo))
-            .attr("y", 0)
-            .attr("width", d => (d.yearsAgoStart ? x(d.yearsAgoStart) - x(d.yearsAgoEnd) : 5))
-            .attr("height", height / 2)
-            .on("mouseover", function(event, d) {
-                tooltip.transition()
-                    .duration(200)
-                    .style("opacity", .9);
-                tooltip.html(d.event + "<br/>" + (d.yearsAgoEnd ? `${d.yearsAgoStart / 1000000}M - ${d.yearsAgoEnd / 1000000}M` : `${d.yearsAgo / 1000}k`))
-                    .style("left", (event.pageX + 5) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            })
-            .on("mouseout", function(d) {
-                tooltip.transition()
-                    .duration(500)
-                    .style("opacity", 0);
-            });
-
-        // 스케일 토글 기능
-        d3.select("#toggleScale").on("click", function() {
-            isLogScale = !isLogScale;
-            x = isLogScale ? xLog : xLinear;
-
-            chart.select(".x.axis")
-                .transition()
-                .duration(1000)
-                .call(d3.axisBottom(x).tickFormat(d3.format(".0s")));
-
-            bars.transition()
-                .duration(1000)
+            const bars = chart.selectAll(".bar")
+                .data(data)
+                .enter().append("rect")
+                .attr("class", "bar")
                 .attr("x", d => x(d.yearsAgoEnd || d.yearsAgo))
-                .attr("width", d => (d.yearsAgoStart ? x(d.yearsAgoStart) - x(d.yearsAgoEnd) : 5));
+                .attr("y", 0)
+                .attr("width", d => (d.yearsAgoStart ? x(d.yearsAgoStart) - x(d.yearsAgoEnd) : 5))
+                .attr("height", height / 2)
+                .on("mouseover", function(event, d) {
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    tooltip.html(d.event + "<br/>" + (d.yearsAgoEnd ? `${d.yearsAgoStart / 1000000}M - ${d.yearsAgoEnd / 1000000}M` : `${d.yearsAgo / 1000}k`))
+                        .style("left", (event.pageX + 5) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", function(d) {
+                    tooltip.transition()
+                        .duration(500)
+                        .style("opacity", 0);
+                });
+
+            // 스케일 토글 기능
+            d3.select("#toggleScale").on("click", function() {
+                isLogScale = !isLogScale;
+                x = isLogScale ? xLog : xLinear;
+
+                chart.select(".x.axis")
+                    .transition()
+                    .duration(1000)
+                    .call(d3.axisBottom(x).tickFormat(d3.format(".0s")));
+
+                bars.transition()
+                    .duration(1000)
+                    .attr("x", d => x(d.yearsAgoEnd || d.yearsAgo))
+                    .attr("width", d => (d.yearsAgoStart ? x(d.yearsAgoStart) - x(d.yearsAgoEnd) : 5));
+            });
         });
     </script>
 </div>
