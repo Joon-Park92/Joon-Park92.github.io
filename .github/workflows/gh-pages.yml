@@ -24,7 +24,10 @@ jobs:
           python-version: 3.9
 
       - name: Install dependencies
-        run: pip install packaging==22.0 make install
+        run: pip install packaging==21.3 
+  
+      - name: Install dependencies pdm
+        run: make install
 
       - name: Update requirements
         run: make update
