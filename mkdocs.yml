@@ -106,7 +106,6 @@ theme:
   logo: img/logo.png
   features:
     - navigation.footer
-    - navigation.instant
     - navigation.top
     - content.code.annotate
     - search.suggest

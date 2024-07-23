@@ -1,3 +1,5 @@
+<div markdown="1">
+
 # 외로움은 어떻게 대처하면 좋을까 ?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n3Xv_g3g-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -27,6 +29,8 @@ Loneliness is bodily function like hunger. Your body needs social needs. It was 
 [Loneliness Across Phylogeny and a Call for Comparative Studies and Animal Models - John T. Cacioppo, Stephanie Cacioppo, Steven W. Cole, John P. Capitanio, Luc Goossens, Dorret I. Boomsma, 2015](https://journals.sagepub.com/doi/full/10.1177/1745691614564876)
 
 - That’s why rejections hurt, and even more so, why loneliness is so painful.
+
+</div>
 
 <div>
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -149,6 +153,8 @@ Loneliness is bodily function like hunger. Your body needs social needs. It was 
     </script>
 </div>
 
+<div markdown="1">
+
 ## The downside of the mordern world
 
 - Intellecurals moved away from the colletivism of the Middle Ages, while the young Protestant theology stressed individual responsibility. This trend accelerated during the Industrial Revolution.
@@ -171,3 +177,5 @@ Loneliness is bodily function like hunger. Your body needs social needs. It was 
 - 스스로 극복이 어렵다면, 전문가를 찾아가라. 이것은 약함을 보여주는 것이 아니라 당신의 용기를 보여주는 것이다.
 - 사회적으로 연결될 수 있는 기회를 스스로 더 만들고, 그 능력의 근육을 키워라.
 - 다음과 같은 두 책을 참조하였다. “EMOTIONAL FIRST AID, Guy Winch” / “Loneliness, John T. Cacioppo & William Patrick “
+
+</div>
