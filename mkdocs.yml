@@ -10,14 +10,11 @@ nav:
       - growth: 7ba945a8-e583-4b99-bdd8-5c0f84118c54.md
       - periodic-phenomenon: bd21b1dc-6064-48b1-8894-18693847e844.md
       - loneliness: e0a0fbf1-1ed1-4b59-ab3f-335ee2fd5ef6.md
+      - pokemon: a544e931-db9d-4f20-b003-6a89f2d4a8d0.md
   - Machine Learning:
-      - Recommendation:
-          - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
-      - Algorithm:
-          - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
-          - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
-      - Reinforcement:
-          - pokemon: a544e931-db9d-4f20-b003-6a89f2d4a8d0.md
+      - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
+      - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
+      - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
   - Economics:
       - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
   - Philosophy:
@@ -25,18 +22,16 @@ nav:
   - Programming:
       - DesignPattern:
           - diagram: abe10a12-9498-4435-816e-a967daeadd3f.md
+      - Testing:
+          - test-must-be-actionable: ebc61d65-2267-48ec-b957-1915d16c3891.md
       - Web:
-          - Auth:
-              - auth-basic: dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
-              - social-login: d3c922e8-8eee-4d47-bfdb-54709ee13cf8.md
-          - Security:
-              - ca-certification: 8477ba61-0609-4ac2-b988-7cbf8854c739.md
-          - Network:
-              - tcp-udp: 4ebc9c2a-c6c4-4427-8ff8-056a8ccbc38b.md
-              - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
+          - auth-basic: dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
+          - social-login: d3c922e8-8eee-4d47-bfdb-54709ee13cf8.md
+          - ca-certification: 8477ba61-0609-4ac2-b988-7cbf8854c739.md
+          - tcp-udp: 4ebc9c2a-c6c4-4427-8ff8-056a8ccbc38b.md
+          - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
       - Infra:
-          - DB:
-              - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
+          - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
           - Terraform:
               - Basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
   - Mathematics:
