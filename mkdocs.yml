@@ -15,6 +15,7 @@ nav:
       - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
       - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
       - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
+      - idempotent: 8feb5ca2-1b5d-4e9b-aa95-c3cc19b3fada.md
   - Economics:
       - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
   - Philosophy:
