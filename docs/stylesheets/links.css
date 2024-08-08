@@ -839,7 +839,7 @@
 .md-content a[href*="amazon.co."]::after,
 .md-content a[href*="amzn.com"]::after {
     content: "";
-    background-image: url("/blue-book/assets/images/amazon.svg");
+    background-image: url("/assets/images/amazon.svg");
     background-repeat: no-repeat;
     background-size: 0.75em;
     background-position: right 1px top;
@@ -858,7 +858,7 @@
 /* Amazon AWS */
 .md-content a[href*="aws.amazon.com"]::after{
     content: "";
-    background-image: url("/blue-book/assets/images/aws.svg");
+    background-image: url("/assets/images/aws.svg");
     background-repeat: no-repeat;
     background-size: 0.8em;
     background-position: right 1px top;
@@ -876,15 +876,15 @@
 
 /* Blue book: Fetch all internal links not `//` and the external links of my
  * blog */
-.md-content a[href*='lyz-code.github.io']::after,
+.md-content a[href*='joon-park92.github.io']::after,
 .md-content a:not([href*="//"])::after {
-    background-image: url("/blue-book/assets/images/bluebook.svg");
+    background-image: url("/assets/images/bluebook.svg");
 }
-.md-content a[href*='lyz-code.github.io']:hover::after,
+.md-content a[href*='joon-park92.github.io']:hover::after,
 .md-content a:not([href*="//"])::after {
     opacity: 0.3;
 }
-.md-content a[href*='lyz-code.github.io']::after,
+.md-content a[href*='joon-park92.github.io']::after,
 .md-content a:not([href*="//"])::after {
     content: "";
     display: inline-block;
@@ -914,7 +914,7 @@
 
 /* Gitea */
 .md-content a[href*='git.digitales.cslabrecha.org']::after {
-    background-image: url("/blue-book/assets/images/gitea.svg");
+    background-image: url("/assets/images/gitea.svg");
 }
 .md-content a[href*='git.digitales.cslabrecha.org']:hover::after {
     opacity: 0.3;
@@ -937,7 +937,7 @@
 
 /* Github; I exclude github.io because that's blogs */
 .md-content a[href*='github.com']::after {
-    background-image: url("/blue-book/assets/images/github.svg");
+    background-image: url("/assets/images/github.svg");
 }
 .md-content a[href*='github.com']:hover::after {
     opacity: 0.3;
@@ -964,7 +964,7 @@
 /* Dropbox: old file-host, deprecated since they've started killing inactive accounts */
 .md-content a[href*='dropbox.com']::after,
 .md-content a[href*='dropboxusercontent.com']::after {
-    background-image: url("/blue-book/assets/images/dropbox.svg");
+    background-image: url("/assets/images/dropbox.svg");
 }
 .md-content a[href*='dropbox.com']:hover::after,
 .md-content a[href*='dropboxusercontent.com']:hover::after {
@@ -986,7 +986,7 @@
 /* Kubernetes docs */
 
 .md-content a[href*='kubernetes.io']::after {
-    background-image: url("/blue-book/assets/images/kubernetes.svg");
+    background-image: url("/assets/images/kubernetes.svg");
     opacity: 1;
 }
 .md-content a[href*='kubernetes.io']:hover::after {
@@ -1006,7 +1006,7 @@
 
 /* MegaUpload/Mega: filesharing (used for big files) */
 .md-content a[href*='mega.nz']::after {
-    background-image: url("/blue-book/assets/images/mega.svg");
+    background-image: url("/assets/images/mega.svg");
 }
 .md-content a[href*='mega.nz']:hover::after {
     opacity: 0.3;
@@ -1027,7 +1027,7 @@
 .md-content a[href*='archive-it.org']::after,
 .md-content a[href*='archiveteam.org']::after,
 .md-content a[href*='waybackmachine.org']::after {
-    background-image: url("/blue-book/assets/images/internetarchive.svg");
+    background-image: url("/assets/images/internetarchive.svg");
 }
 .md-content a[href*='archive.org']:hover::after,
 .md-content a[href*='archive-it.org']:hover::after,
@@ -1222,7 +1222,7 @@
 .md-content a[href$='.page' i]::after,
 .md-content a[href$='.txt' i]::after,
 .md-content a[href$='.xml' i]::after {
-    background-image: url('/blue-book/assets/images/txt.svg');
+    background-image: url('/assets/images/txt.svg');
 }
 
 /*  Code, scripts, etc.
@@ -1236,7 +1236,7 @@
 .md-content a[href$='.patch' i]::after,
 .md-content a[href^="."][href$='.php' i]::after,
 .md-content a[href$='.sh' i]::after {
-    background-image: url('/blue-book/assets/images/code.svg');
+    background-image: url('/assets/images/code.svg');
 }
 
 /*  Word (& compatible) documents.
@@ -1244,7 +1244,7 @@
 .md-content a[href$='.doc' i]::after,
 .md-content a[href$='.docx' i]::after,
 .md-content a[href*='docs.google.com' i]::after {
-    background-image: url('/blue-book/assets/images/worddoc.svg');
+    background-image: url('/assets/images/worddoc.svg');
 }
 
 /*  Excel (& compatible) documents.
@@ -1252,13 +1252,13 @@
 .md-content a[href$='.xls' i]::after,
 .md-content a[href$='.ods' i]::after,
 .md-content a[href$='.xlsx' i]::after {
-    background-image: url('/blue-book/assets/images/spreadsheet.svg');
+    background-image: url('/assets/images/spreadsheet.svg');
 }
 
 /*  CSV files.
     */
 .md-content a[href$='.csv' i]::after {
-    background-image: url('/blue-book/assets/images/csv.svg');
+    background-image: url('/assets/images/csv.svg');
 }
 
 /*  Images.
@@ -1272,7 +1272,7 @@
 .md-content a[href$='.svg' i]::after,
 .md-content a[href$='.xcf' i]::after,
 .md-content a[href*='imgur.com']::after {
-    background-image: url('/blue-book/assets/images/image.svg');
+    background-image: url('/assets/images/image.svg');
 }
 
 /*  Audio files.
@@ -1282,7 +1282,7 @@
 .md-content a[href$='.flac' i]::after,
 .md-content a[href$='.rm' i]::after,
 .md-content a[href$='.ogg' i]::after {
-    background-image: url('/blue-book/assets/images/audio.svg');
+    background-image: url('/assets/images/audio.svg');
 }
 
 /*  Video files.
@@ -1291,7 +1291,7 @@
 .md-content a[href$='.avi' i]::after,
 .md-content a[href$='.mp4' i]::after,
 .md-content a[href$='.webm' i]::after {
-    background-image: url('/blue-book/assets/images/video.svg');
+    background-image: url('/assets/images/video.svg');
 }
 
 /*  Archive files.
@@ -1300,7 +1300,7 @@
 .md-content a[href$='.zip' i]::after,
 .md-content a[href$='.xz' i]::after,
 .md-content a[href$='.img' i]::after {
-    background-image: url('/blue-book/assets/images/archive.svg');
+    background-image: url('/assets/images/archive.svg');
 }
 
 /*  Miscellaneous files (for which there is no specific icon).
@@ -1309,5 +1309,5 @@
 .md-content a[href$='.mdb' i]::after,
 .md-content a[href$='.mht' i]::after,
 .md-content a[href$='.ttf' i]::after {
-    background-image: url('/blue-book/assets/images/misc.svg');
+    background-image: url('/assets/images/misc.svg');
 }
