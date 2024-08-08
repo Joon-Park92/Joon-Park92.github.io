@@ -17,6 +17,7 @@ nav:
       - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
       - idempotent: 8feb5ca2-1b5d-4e9b-aa95-c3cc19b3fada.md
       - data-pipeline-best-practice: 544db2a0-4067-4464-b0d2-dbfcbd67f746.md
+      - data-pipeline-design-pattern: 69c32762-4d5a-46af-980f-65412c50def8.md
   - Economics:
       - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
   - Philosophy:
