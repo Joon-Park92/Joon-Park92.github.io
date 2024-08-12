@@ -27,6 +27,7 @@ nav:
   - Programming:
       - DesignPattern:
           - diagram: abe10a12-9498-4435-816e-a967daeadd3f.md
+          - proxy-pattern: 883d7b99-7492-4055-9c0d-f742b6c6b94c.md
       - Testing:
           - test-must-be-actionable: ebc61d65-2267-48ec-b957-1915d16c3891.md
       - Web:
