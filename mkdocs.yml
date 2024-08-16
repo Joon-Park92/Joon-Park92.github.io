@@ -29,6 +29,7 @@ nav:
           - diagram: abe10a12-9498-4435-816e-a967daeadd3f.md
           - abstract-factory-pattern: 5a69e196-3aa4-4c2c-858f-3b19507f6a9d.md
           - proxy-pattern: 883d7b99-7492-4055-9c0d-f742b6c6b94c.md
+          - decorator-pattern: 2b665dac-9091-4267-83de-36e9c3e15b6c.md
           - observer-pattern: 41d4ab75-8c96-4948-9616-db36d04b6b96.md
           - strategy-pattern: 743dc6d3-3c82-4714-852d-bb65861bbeb2.md
       - Testing:
