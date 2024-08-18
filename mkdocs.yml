@@ -48,17 +48,17 @@ nav:
           - Terraform:
               - Basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
   - Mathematics:
-      - distance_vs_metric_vs_norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
+      - distance-vs-metric-vs-norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
       - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
-      - completeness_soundness_consistency: ecb6dfa9-eb48-4183-8e04-0b2d87f2fcea.md
+      - completeness-soundness-consistency: ecb6dfa9-eb48-4183-8e04-0b2d87f2fcea.md
       - analysis-basic: 5457aa52-7690-4906-afc2-8243ab67a390.md
-      - formal_system: 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
+      - formal-system: 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
       - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
       - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
   - Papers:
       - alpha-gemoetry: 98a670de-3076-4f48-879f-94727bfc8807.md
-      - two_step_ml_enable_optimized_nano_particle_synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
-      - self_route_rag_lc_hybrid_approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
+      - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
+      - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
 plugins:
   - search
   - exclude-search:
