@@ -56,6 +56,7 @@ nav:
       - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
       - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
   - Papers:
+      - alpha-gemoetry: 98a670de-3076-4f48-879f-94727bfc8807.md
       - two_step_ml_enable_optimized_nano_particle_synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
       - self_route_rag_lc_hybrid_approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
 plugins:
