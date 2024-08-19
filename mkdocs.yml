@@ -20,6 +20,8 @@ nav:
       - data-pipeline-design-pattern: 69c32762-4d5a-46af-980f-65412c50def8.md
       - data-pipeline-etl-elt-pattern: 44a78a08-56b1-40e8-801f-5220573f7f63.md
       - data-lake-warehouse-mart: 1e3e96b7-2d44-44c5-8987-b1f731d2322a.md
+  - Data Analysis:
+      - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
   - Economics:
       - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
   - Philosophy:
