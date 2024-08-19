@@ -56,7 +56,7 @@
 - 아래 그림의 예시처럼 마케팅 끄면 다시 돌아오는 것을 확인할 수 있음
 
 <div style="text-align: center;">
-    <img src=/img/TSK-1969/2.png width=80%>
+    <img src=/img/TSK-1969/1.png width=80%>
 </div>
 
 <details markdown="1">
@@ -121,7 +121,7 @@ plt.show()
 - 린 스타트업에서 리텐션을 필두로하는 성장가설 검증에 힘쓰는 이유가 여기에 있음.
 
 <div style="text-align: center;">
-    <img src=/img/TSK-1969/1.jpg width=80%>
+    <img src=/img/TSK-1969/2.png width=80%>
 </div>
 
 - 곰곰이 생각해보면, CC 를 정의하는 미분방정식에서 상수항은 큰 의미가 없음, 중요한 것은 N에 대한 비율로서 작동하는 것이 CC 에 영향을 미침
