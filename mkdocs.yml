@@ -24,6 +24,7 @@ nav:
   - Data Analysis:
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
       - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
+      - bayesian-notation: 909ed374-e61f-4332-9619-4dedc93439ba.md
   - Economics:
       - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
   - Philosophy:
@@ -60,7 +61,7 @@ nav:
       - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
       - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
   - Papers:
-      - alpha-gemoetry: 98a670de-3076-4f48-879f-94727bfc8807.md
+      - alpha-geometry: 98a670de-3076-4f48-879f-94727bfc8807.md
       - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
       - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
 plugins:
