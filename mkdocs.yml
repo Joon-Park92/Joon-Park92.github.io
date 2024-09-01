@@ -52,6 +52,8 @@ nav:
           - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
           - Terraform:
               - Basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
+      - Language:
+          - golang: 0aed534e-ea29-417f-a8df-c3e52e03360d.md
   - Mathematics:
       - distance-vs-metric-vs-norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
       - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
