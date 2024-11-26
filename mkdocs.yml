@@ -4,8 +4,6 @@ site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
   - Introduction: c0295d5c-ac9d-4a38-a890-a550d8508304.md
-  - Book:
-      - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
   - Think:
       - problem: 71af9498-4da5-490e-8ca0-41b0d11cc8d7.md
       - innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
@@ -13,6 +11,12 @@ nav:
       - periodic-phenomenon: bd21b1dc-6064-48b1-8894-18693847e844.md
       - loneliness: e0a0fbf1-1ed1-4b59-ab3f-335ee2fd5ef6.md
       - pokemon: a544e931-db9d-4f20-b003-6a89f2d4a8d0.md
+  - Book:
+      - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
+  - Papers:
+      - alpha-geometry: 98a670de-3076-4f48-879f-94727bfc8807.md
+      - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
+      - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
   - Machine Learning:
       - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
       - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
@@ -31,13 +35,8 @@ nav:
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
       - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
       - bayesian-notation: 909ed374-e61f-4332-9619-4dedc93439ba.md
-  - Economics:
-      - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
-  - Philosophy:
-      - history: 62bdf711-6616-41fe-a861-9b3b99a2e988.md
-      - kant: b173354e-9935-4dfe-ab04-77e62427478a.md
   - Programming:
-      - CheatSheet:
+      - Cheat Sheet:
           - vscode:
               - devcontainer: e526860c-b2ec-4be4-862e-06cb5188bd07.md
               - devcontainer-compose: 8e4310e9-3a6a-4d96-9256-e67659ca51cd.md
@@ -45,9 +44,9 @@ nav:
           - golang: 0aed534e-ea29-417f-a8df-c3e52e03360d.md
           - pdb: 77b75667-9746-45c3-80a2-d8c45a40882a.md
           - dlv: 953c51f3-f6f5-42d8-a87a-fb7f9493436d.md
-      - ArchitecturePattern:
+      - Architecture Pattern:
           - uow-pattern: c4ae6334-c1c2-4452-890c-8a022d6c1246.md
-      - DesignPattern:
+      - Design Pattern:
           - diagram: abe10a12-9498-4435-816e-a967daeadd3f.md
           - abstract-factory-pattern: 5a69e196-3aa4-4c2c-858f-3b19507f6a9d.md
           - builder-pattern: 5c2407d0-1b72-4886-9c6c-f73897c77475.md
@@ -77,10 +76,11 @@ nav:
       - formal-system: 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
       - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
       - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
-  - Papers:
-      - alpha-geometry: 98a670de-3076-4f48-879f-94727bfc8807.md
-      - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
-      - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
+  - Economics:
+      - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
+  - Philosophy:
+      - history: 62bdf711-6616-41fe-a861-9b3b99a2e988.md
+      - kant: b173354e-9935-4dfe-ab04-77e62427478a.md
 plugins:
   - search
   - exclude-search:
