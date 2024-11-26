@@ -48,7 +48,7 @@ nav:
           - memento-pattern: a74d9002-c7e9-4d06-b710-de589255cc97.md
       - Architecture Pattern:
           - uow-pattern: c4ae6334-c1c2-4452-890c-8a022d6c1246.md
-      - Testing:
+      - Test:
           - test-must-be-actionable: ebc61d65-2267-48ec-b957-1915d16c3891.md
       - Web:
           - auth-basic: dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
@@ -58,10 +58,13 @@ nav:
           - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
       - Infra:
           - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
-          - Terraform:
-              - Basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
-      - Language:
+          - terraform:
+              - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
+      - CheatSheet:
           - golang: 0aed534e-ea29-417f-a8df-c3e52e03360d.md
+          - pdb: 77b75667-9746-45c3-80a2-d8c45a40882a.md
+          - dlv: 953c51f3-f6f5-42d8-a87a-fb7f9493436d.md
+          - debug: 46e14fc0-2be9-4b9f-a17a-e72ea38e6fe3.md
   - Mathematics:
       - distance-vs-metric-vs-norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
       - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
