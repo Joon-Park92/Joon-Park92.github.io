@@ -4,6 +4,8 @@ site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
   - Introduction: c0295d5c-ac9d-4a38-a890-a550d8508304.md
+  - Book:
+      - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
   - Think:
       - problem: 71af9498-4da5-490e-8ca0-41b0d11cc8d7.md
       - innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
@@ -29,7 +31,6 @@ nav:
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
       - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
       - bayesian-notation: 909ed374-e61f-4332-9619-4dedc93439ba.md
-      - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
   - Economics:
       - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
   - Philosophy:
