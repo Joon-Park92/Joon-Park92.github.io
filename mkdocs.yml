@@ -171,6 +171,9 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra:
+  analytics:
+    provider: google
+    property: G-3ZBKBLXZ83
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/lyz-code
