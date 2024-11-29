@@ -38,7 +38,7 @@ nav:
       - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
       - bayesian-notation: 909ed374-e61f-4332-9619-4dedc93439ba.md
   - Programming:
-      - Cheat Sheet:
+      - cheat-sheet:
           - vscode:
               - devcontainer: e526860c-b2ec-4be4-862e-06cb5188bd07.md
               - devcontainer-compose: 8e4310e9-3a6a-4d96-9256-e67659ca51cd.md
@@ -47,9 +47,9 @@ nav:
           - pdb: 77b75667-9746-45c3-80a2-d8c45a40882a.md
           - dlv: 953c51f3-f6f5-42d8-a87a-fb7f9493436d.md
           - awk: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0.md
-      - Architecture Pattern:
+      - architecture-pattern:
           - uow-pattern: c4ae6334-c1c2-4452-890c-8a022d6c1246.md
-      - Design Pattern:
+      - design-pattern:
           - diagram: abe10a12-9498-4435-816e-a967daeadd3f.md
           - abstract-factory-pattern: 5a69e196-3aa4-4c2c-858f-3b19507f6a9d.md
           - builder-pattern: 5c2407d0-1b72-4886-9c6c-f73897c77475.md
@@ -59,15 +59,17 @@ nav:
           - observer-pattern: 41d4ab75-8c96-4948-9616-db36d04b6b96.md
           - strategy-pattern: 743dc6d3-3c82-4714-852d-bb65861bbeb2.md
           - memento-pattern: a74d9002-c7e9-4d06-b710-de589255cc97.md
-      - Test:
+      - uml:
+          - sequence-chart: 1d7be764-7667-499d-8845-725d25979152.md
+      - test:
           - test-must-be-actionable: ebc61d65-2267-48ec-b957-1915d16c3891.md
-      - Web:
+      - web:
           - auth-basic: dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
           - social-login: d3c922e8-8eee-4d47-bfdb-54709ee13cf8.md
           - ca-certification: 8477ba61-0609-4ac2-b988-7cbf8854c739.md
           - tcp-udp: 4ebc9c2a-c6c4-4427-8ff8-056a8ccbc38b.md
           - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
-      - Infra:
+      - infra:
           - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
           - terraform:
               - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
@@ -171,9 +173,6 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra:
-  analytics:
-    provider: google
-    property: G-3ZBKBLXZ83
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/lyz-code
