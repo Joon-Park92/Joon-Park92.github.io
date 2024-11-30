@@ -21,6 +21,7 @@ nav:
       - decision-theory: a76b9851-0a4b-498e-b949-012360173f1d.md
       - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
       - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
+      - silhouette-score: 755b070b-41b4-4ad1-896a-e89ed77bdea3.md
       - data-pipeline:
           - data-pipeline-idempotent: 8feb5ca2-1b5d-4e9b-aa95-c3cc19b3fada.md
           - data-pipeline-best-practice: 544db2a0-4067-4464-b0d2-dbfcbd67f746.md
