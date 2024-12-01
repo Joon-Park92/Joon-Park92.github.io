@@ -75,13 +75,21 @@ nav:
           - terraform:
               - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
   - Mathematics:
-      - distance-vs-metric-vs-norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
       - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
-      - completeness-soundness-consistency: ecb6dfa9-eb48-4183-8e04-0b2d87f2fcea.md
-      - analysis-basic: 5457aa52-7690-4906-afc2-8243ab67a390.md
-      - formal-system: 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
-      - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
-      - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
+      - linear-algebra:
+          - laplace-fourier-transform: 356067df-ccd5-4f2f-a732-f3e30fb096c4.md
+          - jordan-normal-form: 2ecc0325-cbba-4315-a434-a742533f59fd.md
+          - spectral-theory: fc99afe0-532e-4a85-ba15-fdd5f7cd671f.md
+      - abstract-algebra:
+          - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
+      - analysis:
+          - basic: 5457aa52-7690-4906-afc2-8243ab67a390.md
+      - logic:
+          - completeness-soundness-consistency: ecb6dfa9-eb48-4183-8e04-0b2d87f2fcea.md
+          - formal-system: 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
+      - etc:
+          - distance-vs-metric-vs-norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
+          - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
   - Economics:
       - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
   - Philosophy:
