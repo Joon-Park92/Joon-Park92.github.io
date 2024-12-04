@@ -34,6 +34,7 @@ nav:
           - r-cnn: 662c2408-9a10-4d9c-9b2e-289909cd2181.md
           - object-detection-metric: 87d3f8f6-0e00-4740-8fd7-5831847fbfb3.md
       - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
+      - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
   - Data Analysis:
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
       - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
