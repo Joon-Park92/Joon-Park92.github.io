@@ -39,6 +39,7 @@ nav:
           - object-detection-metric: 87d3f8f6-0e00-4740-8fd7-5831847fbfb3.md
       - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
       - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
+      - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
   - Data Analysis:
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
       - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
@@ -85,6 +86,7 @@ nav:
           - laplace-fourier-transform: 356067df-ccd5-4f2f-a732-f3e30fb096c4.md
           - jordan-normal-form: 2ecc0325-cbba-4315-a434-a742533f59fd.md
           - spectral-theory: fc99afe0-532e-4a85-ba15-fdd5f7cd671f.md
+          - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
       - abstract-algebra:
           - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
       - analysis:
