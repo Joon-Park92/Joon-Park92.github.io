@@ -41,6 +41,7 @@ nav:
       - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
       - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
   - Data Analysis:
+      - confounder-variable: 33ddecc4-e433-47f3-9dbb-a0b82456d359.md
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
       - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
       - bayesian-notation: 909ed374-e61f-4332-9619-4dedc93439ba.md
