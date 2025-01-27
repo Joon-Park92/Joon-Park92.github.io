@@ -81,6 +81,7 @@ nav:
           - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
           - terraform:
               - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
+              - module: 9f796320-bd12-4bd9-ad27-420fecb00aa0.md
   - Mathematics:
       - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
       - linear-algebra:
