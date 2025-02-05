@@ -40,6 +40,7 @@ nav:
       - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
       - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
       - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
+      - ctr-model: 4a8e19a2-737f-49e6-bfbc-43c4a15358f3.md
   - Data Analysis:
       - confounder-variable: 33ddecc4-e433-47f3-9dbb-a0b82456d359.md
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
@@ -79,6 +80,8 @@ nav:
           - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
       - infra:
           - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
+          - k8s:
+              - resource: 00ec5c52-4cac-4577-a1e5-98d4fbde43dd.md
           - terraform:
               - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
               - module: 9f796320-bd12-4bd9-ad27-420fecb00aa0.md
