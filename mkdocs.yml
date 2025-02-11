@@ -69,6 +69,8 @@ nav:
           - observer-pattern: 41d4ab75-8c96-4948-9616-db36d04b6b96.md
           - strategy-pattern: 743dc6d3-3c82-4714-852d-bb65861bbeb2.md
           - memento-pattern: a74d9002-c7e9-4d06-b710-de589255cc97.md
+      - ml-design-pattern:
+          - transform: f8570381-560e-438d-b9f6-5250d6056f36.md
       - api-design:
           - resource-oriented-design: 70aaa37e-6bf4-4cda-9dab-756b32c2e6a8.md
           - aip-124: 8ef7098d-dcc8-4211-9df2-adf369932457.md
