@@ -88,8 +88,8 @@ nav:
           - database:
               - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
           - monitoring:
-              - ca6f533e-9a0c-492c-9063-70bac671ae75.md
-              - 69a053ab-db6a-480f-8557-c127a2a6da79.md
+              - basic-loki-query: ca6f533e-9a0c-492c-9063-70bac671ae75.md
+              - basic-promql: 69a053ab-db6a-480f-8557-c127a2a6da79.md
           - k8s:
               - resource: 00ec5c52-4cac-4577-a1e5-98d4fbde43dd.md
           - terraform:
