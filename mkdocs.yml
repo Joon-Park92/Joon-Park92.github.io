@@ -22,26 +22,33 @@ nav:
       - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
       - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
   - Machine Learning:
-      - decision-theory: a76b9851-0a4b-498e-b949-012360173f1d.md
-      - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
-      - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
-      - silhouette-score: 755b070b-41b4-4ad1-896a-e89ed77bdea3.md
+      - agent: 0e8f9f02-0c8d-4764-9952-512a95698684.md
+      - ml-design-pattern:
+          - transform: f8570381-560e-438d-b9f6-5250d6056f36.md
+      - theory:
+          - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
+          - decision-theory: a76b9851-0a4b-498e-b949-012360173f1d.md
+      - models:
+          - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
+          - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
+          - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
+          - ctr-model: 4a8e19a2-737f-49e6-bfbc-43c4a15358f3.md
+          - object-detection:
+              - yolo-outline: cd9b93fb-9aeb-4c66-a285-8c2cfb580637.md
+              - r-cnn-outline: 180d0c57-3989-4bc7-a33e-36e11e6753a9.md
+              - r-cnn: 662c2408-9a10-4d9c-9b2e-289909cd2181.md
+              - object-detection-metric: 87d3f8f6-0e00-4740-8fd7-5831847fbfb3.md
+      - metrics:
+          - silhouette-score: 755b070b-41b4-4ad1-896a-e89ed77bdea3.md
+      - operations:
+          - serving-frameworks: 420fec6d-e64e-4b4e-9815-2b8f4f1f5d66.md
+          - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
       - data-pipeline:
           - data-pipeline-idempotent: 8feb5ca2-1b5d-4e9b-aa95-c3cc19b3fada.md
           - data-pipeline-best-practice: 544db2a0-4067-4464-b0d2-dbfcbd67f746.md
           - data-pipeline-design-pattern: 69c32762-4d5a-46af-980f-65412c50def8.md
           - data-pipeline-etl-elt-pattern: 44a78a08-56b1-40e8-801f-5220573f7f63.md
           - data-lake-warehouse-mart: 1e3e96b7-2d44-44c5-8987-b1f731d2322a.md
-      - object-detection:
-          - yolo-outline: cd9b93fb-9aeb-4c66-a285-8c2cfb580637.md
-          - r-cnn-outline: 180d0c57-3989-4bc7-a33e-36e11e6753a9.md
-          - r-cnn: 662c2408-9a10-4d9c-9b2e-289909cd2181.md
-          - object-detection-metric: 87d3f8f6-0e00-4740-8fd7-5831847fbfb3.md
-      - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
-      - serving-frameworks: 420fec6d-e64e-4b4e-9815-2b8f4f1f5d66.md
-      - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
-      - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
-      - ctr-model: 4a8e19a2-737f-49e6-bfbc-43c4a15358f3.md
   - Data Analysis:
       - confounder-variable: 33ddecc4-e433-47f3-9dbb-a0b82456d359.md
       - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
@@ -69,8 +76,6 @@ nav:
           - observer-pattern: 41d4ab75-8c96-4948-9616-db36d04b6b96.md
           - strategy-pattern: 743dc6d3-3c82-4714-852d-bb65861bbeb2.md
           - memento-pattern: a74d9002-c7e9-4d06-b710-de589255cc97.md
-      - ml-design-pattern:
-          - transform: f8570381-560e-438d-b9f6-5250d6056f36.md
       - api-design:
           - resource-oriented-design: 70aaa37e-6bf4-4cda-9dab-756b32c2e6a8.md
           - aip-124: 8ef7098d-dcc8-4211-9df2-adf369932457.md
