@@ -23,7 +23,9 @@ nav:
       - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
       - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
   - Machine Learning:
-      - agent: 0e8f9f02-0c8d-4764-9952-512a95698684.md
+      - ai-agent:
+          - definition: 0e8f9f02-0c8d-4764-9952-512a95698684.md
+          - improving-hallucination: 55f9b832-4723-4ac6-aba1-c5222f275773.md
       - ml-design-pattern:
           - transform: f8570381-560e-438d-b9f6-5250d6056f36.md
       - theory:
