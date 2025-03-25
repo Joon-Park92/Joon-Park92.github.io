@@ -33,6 +33,7 @@ nav:
       - theory:
           - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
           - decision-theory: a76b9851-0a4b-498e-b949-012360173f1d.md
+          - markov-decision-process: 3b2779be-a240-4dbf-bde2-a67e8519bf03.md
       - models:
           - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
           - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
@@ -102,6 +103,7 @@ nav:
               - basic-promql: 69a053ab-db6a-480f-8557-c127a2a6da79.md
           - k8s:
               - resource: 00ec5c52-4cac-4577-a1e5-98d4fbde43dd.md
+              - deployment: 444f81ea-f01b-47a3-9748-21727479ee90.md
           - terraform:
               - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
               - module: 9f796320-bd12-4bd9-ad27-420fecb00aa0.md
