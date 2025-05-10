@@ -3,186 +3,186 @@ site_description: My personal digital garden
 site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
-  - Introduction: c0295d5c-ac9d-4a38-a890-a550d8508304.md
-  - Think:
-      - daily:
-          - "250414": c5f31887-82ef-40b2-8577-80972dda2033.md
-      - problem: 71af9498-4da5-490e-8ca0-41b0d11cc8d7.md
-      - innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
-      - growth: 7ba945a8-e583-4b99-bdd8-5c0f84118c54.md
-      - periodic-phenomenon: bd21b1dc-6064-48b1-8894-18693847e844.md
-      - loneliness: e0a0fbf1-1ed1-4b59-ab3f-335ee2fd5ef6.md
-      - pokemon: a544e931-db9d-4f20-b003-6a89f2d4a8d0.md
-      - duolingo: 3bc1acea-5edc-4594-984f-b5f284906524.md
-  - Book:
-      - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
-      - thinking-in-bets: 6d61fad8-7e87-41a2-a4a7-95a83d249614.md
-      - 무진기행: 7a8d3ccf-7ae1-4723-bf7e-36ac47970f2b.md
-      - the-death-of-ivan-ilyitch: 5542ecb9-6658-4096-9cdb-2ac15a54277a.md
-      - the-old-man-and-the-sea: 6f914835-5ecf-432a-9315-71fcca494238.md
-  - Papers:
-      - alpha-geometry: 98a670de-3076-4f48-879f-94727bfc8807.md
-      - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
-      - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
-  - Machine Learning:
-      - ai-agent:
-          - pattern: 0e8f9f02-0c8d-4764-9952-512a95698684.md
-          - improving-hallucination: 55f9b832-4723-4ac6-aba1-c5222f275773.md
-          - deep-research: 96a2b494-bb88-4504-869e-2dd3002eb2d7.md
-          - prompt-guide: 4a3456c9-5673-41f4-8fe5-03daa8571ffa.md
-      - ml-design-pattern:
-          - transform: f8570381-560e-438d-b9f6-5250d6056f36.md
-      - theory:
-          - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
-          - decision-theory: a76b9851-0a4b-498e-b949-012360173f1d.md
-          - markov-decision-process: 3b2779be-a240-4dbf-bde2-a67e8519bf03.md
-      - models:
-          - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
-          - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
-          - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
-          - ctr-model: 4a8e19a2-737f-49e6-bfbc-43c4a15358f3.md
-          - object-detection:
-              - yolo-outline: cd9b93fb-9aeb-4c66-a285-8c2cfb580637.md
-              - r-cnn-outline: 180d0c57-3989-4bc7-a33e-36e11e6753a9.md
-              - r-cnn: 662c2408-9a10-4d9c-9b2e-289909cd2181.md
-              - object-detection-metric: 87d3f8f6-0e00-4740-8fd7-5831847fbfb3.md
-      - metrics:
-          - silhouette-score: 755b070b-41b4-4ad1-896a-e89ed77bdea3.md
-      - operations:
-          - serving-frameworks: 420fec6d-e64e-4b4e-9815-2b8f4f1f5d66.md
-          - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
-      - data-pipeline:
-          - data-pipeline-idempotent: 8feb5ca2-1b5d-4e9b-aa95-c3cc19b3fada.md
-          - data-pipeline-best-practice: 544db2a0-4067-4464-b0d2-dbfcbd67f746.md
-          - data-pipeline-design-pattern: 69c32762-4d5a-46af-980f-65412c50def8.md
-          - data-pipeline-etl-elt-pattern: 44a78a08-56b1-40e8-801f-5220573f7f63.md
-          - data-lake-warehouse-mart: 1e3e96b7-2d44-44c5-8987-b1f731d2322a.md
-  - Data Analysis:
-      - confounder-variable: 33ddecc4-e433-47f3-9dbb-a0b82456d359.md
-      - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
-      - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
-      - bayesian-notation: 909ed374-e61f-4332-9619-4dedc93439ba.md
-      - structural-causal-models: a2083f20-377e-4dca-a149-a13ae3233901.md
-  - Programming:
-      - cheat-sheet:
-          - vscode:
-              - devcontainer: e526860c-b2ec-4be4-862e-06cb5188bd07.md
-              - devcontainer-compose: 8e4310e9-3a6a-4d96-9256-e67659ca51cd.md
-              - debug: 46e14fc0-2be9-4b9f-a17a-e72ea38e6fe3.md
-          - golang: 0aed534e-ea29-417f-a8df-c3e52e03360d.md
-          - pdb: 77b75667-9746-45c3-80a2-d8c45a40882a.md
-          - dlv: 953c51f3-f6f5-42d8-a87a-fb7f9493436d.md
-          - awk: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0.md
-      - architecture-pattern:
-          - uow-pattern: c4ae6334-c1c2-4452-890c-8a022d6c1246.md
-      - design-pattern:
-          - diagram: abe10a12-9498-4435-816e-a967daeadd3f.md
-          - abstract-factory-pattern: 5a69e196-3aa4-4c2c-858f-3b19507f6a9d.md
-          - builder-pattern: 5c2407d0-1b72-4886-9c6c-f73897c77475.md
-          - singleton-pattern: 47efac8a-0a2b-4ca1-8154-022be7d39b79.md
-          - proxy-pattern: 883d7b99-7492-4055-9c0d-f742b6c6b94c.md
-          - decorator-pattern: 2b665dac-9091-4267-83de-36e9c3e15b6c.md
-          - observer-pattern: 41d4ab75-8c96-4948-9616-db36d04b6b96.md
-          - strategy-pattern: 743dc6d3-3c82-4714-852d-bb65861bbeb2.md
-          - memento-pattern: a74d9002-c7e9-4d06-b710-de589255cc97.md
-      - api-design:
-          - resource-oriented-design: 70aaa37e-6bf4-4cda-9dab-756b32c2e6a8.md
-          - aip-124: 8ef7098d-dcc8-4211-9df2-adf369932457.md
-      - uml:
-          - sequence-chart: 1d7be764-7667-499d-8845-725d25979152.md
-      - test:
-          - test-must-be-actionable: ebc61d65-2267-48ec-b957-1915d16c3891.md
-      - web:
-          - auth-basic: dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
-          - social-login: d3c922e8-8eee-4d47-bfdb-54709ee13cf8.md
-          - ca-certification: 8477ba61-0609-4ac2-b988-7cbf8854c739.md
-          - tcp-udp: 4ebc9c2a-c6c4-4427-8ff8-056a8ccbc38b.md
-          - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
-      - infra:
-          - database:
-              - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
-          - monitoring:
-              - basic-loki-query: ca6f533e-9a0c-492c-9063-70bac671ae75.md
-              - basic-promql: 69a053ab-db6a-480f-8557-c127a2a6da79.md
-          - k8s:
-              - resource: 00ec5c52-4cac-4577-a1e5-98d4fbde43dd.md
-              - deployment: 444f81ea-f01b-47a3-9748-21727479ee90.md
-          - terraform:
-              - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
-              - module: 9f796320-bd12-4bd9-ad27-420fecb00aa0.md
-  - Mathematics:
-      - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
-      - linear-algebra:
-          - laplace-fourier-transform: 356067df-ccd5-4f2f-a732-f3e30fb096c4.md
-          - jordan-normal-form: 2ecc0325-cbba-4315-a434-a742533f59fd.md
-          - spectral-theory: fc99afe0-532e-4a85-ba15-fdd5f7cd671f.md
-          - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
-      - abstract-algebra:
-          - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
-      - analysis:
-          - basic: 5457aa52-7690-4906-afc2-8243ab67a390.md
-      - logic:
-          - completeness-soundness-consistency: ecb6dfa9-eb48-4183-8e04-0b2d87f2fcea.md
-          - formal-system: 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
-      - etc:
-          - distance-vs-metric-vs-norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
-          - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
-  - Economics:
-      - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
-      - economic-agents: 7b126bd8-5469-4c24-bee7-782308dbf083.md
-  - Philosophy:
-      - history: 62bdf711-6616-41fe-a861-9b3b99a2e988.md
-      - kant: b173354e-9935-4dfe-ab04-77e62427478a.md
+- Introduction: c0295d5c-ac9d-4a38-a890-a550d8508304.md
+- Think:
+  - daily:
+    - '250414': c5f31887-82ef-40b2-8577-80972dda2033.md
+  - problem: 71af9498-4da5-490e-8ca0-41b0d11cc8d7.md
+  - innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
+  - growth: 7ba945a8-e583-4b99-bdd8-5c0f84118c54.md
+  - periodic-phenomenon: bd21b1dc-6064-48b1-8894-18693847e844.md
+  - loneliness: e0a0fbf1-1ed1-4b59-ab3f-335ee2fd5ef6.md
+  - pokemon: a544e931-db9d-4f20-b003-6a89f2d4a8d0.md
+  - duolingo: 3bc1acea-5edc-4594-984f-b5f284906524.md
+- Book:
+  - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
+  - thinking-in-bets: 6d61fad8-7e87-41a2-a4a7-95a83d249614.md
+  - 무진기행: 7a8d3ccf-7ae1-4723-bf7e-36ac47970f2b.md
+  - the-death-of-ivan-ilyitch: 5542ecb9-6658-4096-9cdb-2ac15a54277a.md
+  - the-old-man-and-the-sea: 6f914835-5ecf-432a-9315-71fcca494238.md
+- Papers:
+  - alpha-geometry: 98a670de-3076-4f48-879f-94727bfc8807.md
+  - two-step-ml-enable-optimized-nano-particle-synthesis: 19a96d58-26fc-4835-a667-6e21c909a0f1.md
+  - self-route-rag-lc-hybrid-approach: c48e831f-9d8d-4cdd-88f1-9106a9a2db8e.md
+- Machine Learning:
+  - ai-agent:
+    - pattern: 0e8f9f02-0c8d-4764-9952-512a95698684.md
+    - improving-hallucination: 55f9b832-4723-4ac6-aba1-c5222f275773.md
+    - deep-research: 96a2b494-bb88-4504-869e-2dd3002eb2d7.md
+    - prompt-guide: 4a3456c9-5673-41f4-8fe5-03daa8571ffa.md
+  - ml-design-pattern:
+    - transform: f8570381-560e-438d-b9f6-5250d6056f36.md
+  - theory:
+    - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
+    - decision-theory: a76b9851-0a4b-498e-b949-012360173f1d.md
+    - markov-decision-process: 3b2779be-a240-4dbf-bde2-a67e8519bf03.md
+  - models:
+    - gradient-boost: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a.md
+    - xgboost: 5608e722-eb92-471f-bd22-d563272ce76f.md
+    - multi-armed-bandit: 430c4345-4509-464b-afa1-839643cb3e7f.md
+    - ctr-model: 4a8e19a2-737f-49e6-bfbc-43c4a15358f3.md
+    - object-detection:
+      - yolo-outline: cd9b93fb-9aeb-4c66-a285-8c2cfb580637.md
+      - r-cnn-outline: 180d0c57-3989-4bc7-a33e-36e11e6753a9.md
+      - r-cnn: 662c2408-9a10-4d9c-9b2e-289909cd2181.md
+      - object-detection-metric: 87d3f8f6-0e00-4740-8fd7-5831847fbfb3.md
+  - metrics:
+    - silhouette-score: 755b070b-41b4-4ad1-896a-e89ed77bdea3.md
+  - operations:
+    - serving-frameworks: 420fec6d-e64e-4b4e-9815-2b8f4f1f5d66.md
+    - key-metrics-form-ml-api: 97d4abaf-b54b-49e2-9eea-1262f3d60ffa.md
+  - data-pipeline:
+    - data-pipeline-idempotent: 8feb5ca2-1b5d-4e9b-aa95-c3cc19b3fada.md
+    - data-pipeline-best-practice: 544db2a0-4067-4464-b0d2-dbfcbd67f746.md
+    - data-pipeline-design-pattern: 69c32762-4d5a-46af-980f-65412c50def8.md
+    - data-pipeline-etl-elt-pattern: 44a78a08-56b1-40e8-801f-5220573f7f63.md
+    - data-lake-warehouse-mart: 1e3e96b7-2d44-44c5-8987-b1f731d2322a.md
+- Data Analysis:
+  - confounder-variable: 33ddecc4-e433-47f3-9dbb-a0b82456d359.md
+  - carrying-capacity: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e.md
+  - bayesian-problem-1: 430a1ee4-5289-435c-97ea-96d4ab2c6fde.md
+  - bayesian-notation: 909ed374-e61f-4332-9619-4dedc93439ba.md
+  - structural-causal-models: a2083f20-377e-4dca-a149-a13ae3233901.md
+- Programming:
+  - cheat-sheet:
+    - vscode:
+      - devcontainer: e526860c-b2ec-4be4-862e-06cb5188bd07.md
+      - devcontainer-compose: 8e4310e9-3a6a-4d96-9256-e67659ca51cd.md
+      - debug: 46e14fc0-2be9-4b9f-a17a-e72ea38e6fe3.md
+    - golang: 0aed534e-ea29-417f-a8df-c3e52e03360d.md
+    - pdb: 77b75667-9746-45c3-80a2-d8c45a40882a.md
+    - dlv: 953c51f3-f6f5-42d8-a87a-fb7f9493436d.md
+    - awk: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0.md
+  - architecture-pattern:
+    - uow-pattern: c4ae6334-c1c2-4452-890c-8a022d6c1246.md
+  - design-pattern:
+    - diagram: abe10a12-9498-4435-816e-a967daeadd3f.md
+    - abstract-factory-pattern: 5a69e196-3aa4-4c2c-858f-3b19507f6a9d.md
+    - builder-pattern: 5c2407d0-1b72-4886-9c6c-f73897c77475.md
+    - singleton-pattern: 47efac8a-0a2b-4ca1-8154-022be7d39b79.md
+    - proxy-pattern: 883d7b99-7492-4055-9c0d-f742b6c6b94c.md
+    - decorator-pattern: 2b665dac-9091-4267-83de-36e9c3e15b6c.md
+    - observer-pattern: 41d4ab75-8c96-4948-9616-db36d04b6b96.md
+    - strategy-pattern: 743dc6d3-3c82-4714-852d-bb65861bbeb2.md
+    - memento-pattern: a74d9002-c7e9-4d06-b710-de589255cc97.md
+  - api-design:
+    - resource-oriented-design: 70aaa37e-6bf4-4cda-9dab-756b32c2e6a8.md
+    - aip-124: 8ef7098d-dcc8-4211-9df2-adf369932457.md
+  - uml:
+    - sequence-chart: 1d7be764-7667-499d-8845-725d25979152.md
+  - test:
+    - test-must-be-actionable: ebc61d65-2267-48ec-b957-1915d16c3891.md
+  - web:
+    - auth-basic: dc73f07f-be90-45d6-a461-ba5bdcd5e163.md
+    - social-login: d3c922e8-8eee-4d47-bfdb-54709ee13cf8.md
+    - ca-certification: 8477ba61-0609-4ac2-b988-7cbf8854c739.md
+    - tcp-udp: 4ebc9c2a-c6c4-4427-8ff8-056a8ccbc38b.md
+    - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
+  - infra:
+    - database:
+      - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
+    - monitoring:
+      - basic-loki-query: ca6f533e-9a0c-492c-9063-70bac671ae75.md
+      - basic-promql: 69a053ab-db6a-480f-8557-c127a2a6da79.md
+    - k8s:
+      - resource: 00ec5c52-4cac-4577-a1e5-98d4fbde43dd.md
+      - deployment: 444f81ea-f01b-47a3-9748-21727479ee90.md
+    - terraform:
+      - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
+      - module: 9f796320-bd12-4bd9-ad27-420fecb00aa0.md
+- Mathematics:
+  - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
+  - linear-algebra:
+    - laplace-fourier-transform: 356067df-ccd5-4f2f-a732-f3e30fb096c4.md
+    - jordan-normal-form: 2ecc0325-cbba-4315-a434-a742533f59fd.md
+    - spectral-theory: fc99afe0-532e-4a85-ba15-fdd5f7cd671f.md
+    - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
+  - abstract-algebra:
+    - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
+  - analysis:
+    - basic: 5457aa52-7690-4906-afc2-8243ab67a390.md
+  - logic:
+    - completeness-soundness-consistency: ecb6dfa9-eb48-4183-8e04-0b2d87f2fcea.md
+    - formal-system: 1d76b428-9e2d-47ff-a222-33e64b28e53c.md
+  - etc:
+    - distance-vs-metric-vs-norm: b199b805-3a46-4d2e-9293-c78266395c1f.md
+    - tensor: 5601ba05-e7ff-4dd2-a5fc-0be44f641911.md
+- Economics:
+  - causal-relationship: 998de948-f260-4548-ac8e-d776cb700c5b.md
+  - economic-agents: 7b126bd8-5469-4c24-bee7-782308dbf083.md
+- Philosophy:
+  - history: 62bdf711-6616-41fe-a861-9b3b99a2e988.md
+  - kant: b173354e-9935-4dfe-ab04-77e62427478a.md
 plugins:
-  - search
-  - exclude-search:
-      exclude:
-        - newsletter/*
-  - autolinks
-  - git-revision-date-localized:
-      type: timeago
-  - minify:
-      minify_html: true
-  - section-index
-  - mkdocs-newsletter
-  - mermaid2
+- search
+- exclude-search:
+    exclude:
+    - newsletter/*
+- autolinks
+- git-revision-date-localized:
+    type: timeago
+- minify:
+    minify_html: true
+- section-index
+- mkdocs-newsletter
+- mermaid2
 markdown_extensions:
-  - md_in_html
-  - abbr
-  - admonition
-  - meta
-  - def_list
-  - toc:
-      permalink: ⚑
-      baselevel: 2
-      toc_depth: 3
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.extra
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-  - mdx_math
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid_custom
+- md_in_html
+- abbr
+- admonition
+- meta
+- def_list
+- toc:
+    permalink: ⚑
+    baselevel: 2
+    toc_depth: 3
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_generator: !!python/name:pymdownx.emoji.to_svg
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.extra
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+- mdx_math
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:mermaid2.fence_mermaid_custom
 theme:
   name: material
   font:
@@ -191,39 +191,39 @@ theme:
   custom_dir: theme
   logo: img/logo.png
   features:
-    - navigation.footer
-    - navigation.top
-    - content.code.annotate
-    - search.suggest
-    - search.highlight
+  - navigation.footer
+  - navigation.top
+  - content.code.annotate
+  - search.suggest
+  - search.highlight
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue grey
-      accent: light blue
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue grey
-      accent: light blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: blue grey
+    accent: light blue
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: blue grey
+    accent: light blue
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/links.css
-  - https://unpkg.com/katex@0/dist/katex.min.css
+- stylesheets/extra.css
+- stylesheets/links.css
+- https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
-  - assets/js/katex.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+- assets/js/katex.js
+- https://unpkg.com/katex@0/dist/katex.min.js
+- https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/lyz-code
-    - icon: fontawesome/solid/rss
-      link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/lyz-code
+  - icon: fontawesome/solid/rss
+    link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index
 repo_name: Joon-Park92/Joon-Park92.github.io
 repo_url: https://github.com/Joon-Park92/Joon-Park92.github.io
