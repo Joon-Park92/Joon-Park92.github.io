@@ -3,7 +3,7 @@ site_description: My personal digital garden
 site_author: Sean
 site_url: https://Joon-Park92.github.io
 nav:
-- Introduction: c0295d5c-ac9d-4a38-a890-a550d8508304.md
+- Home: c0295d5c-ac9d-4a38-a890-a550d8508304.md
 - Think:
   - daily:
     - '250414': c5f31887-82ef-40b2-8577-80972dda2033.md
