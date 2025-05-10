@@ -1,3 +1,8 @@
+---
+publish: true
+uuid: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e
+---
+
 ## TL;DR
 
 - 토스 리더가 말하는 Carrying Capacity(CC) 개념은 제품의 본질적인 성장 한계를 낸다.
