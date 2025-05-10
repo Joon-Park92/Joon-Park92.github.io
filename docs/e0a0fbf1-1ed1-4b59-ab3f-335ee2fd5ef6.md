@@ -1,3 +1,8 @@
+---
+publish: true
+uuid: e0a0fbf1-1ed1-4b59-ab3f-335ee2fd5ef6
+---
+
 <div markdown="1">
 
 # 외로움은 어떻게 대처하면 좋을까 ?
