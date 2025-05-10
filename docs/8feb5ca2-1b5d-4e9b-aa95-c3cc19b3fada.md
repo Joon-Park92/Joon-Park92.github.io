@@ -1,11 +1,13 @@
 ---
-title: idempotent-basic
-summary: Idempotence는 반복 실행 시 결과가 변하지 않는 특성을 말함. 데이터 통합에서 이는 중복 기록을 방지하고, 데이터 파이프라인을 오류에서 안전하게 함.
 date: 2024-08-07
+publish: true
 reference_url:
-    - https://www.fivetran.com/blog/what-is-idempotence
+- https://www.fivetran.com/blog/what-is-idempotence
+summary: Idempotence는 반복 실행 시 결과가 변하지 않는 특성을 말함. 데이터 통합에서 이는 중복 기록을 방지하고, 데이터 파이프라인을
+  오류에서 안전하게 함.
+title: idempotent-basic
+uuid: 8feb5ca2-1b5d-4e9b-aa95-c3cc19b3fada
 ---
-
 
 ## TL;DR
 
