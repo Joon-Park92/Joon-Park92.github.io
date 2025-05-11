@@ -64,12 +64,12 @@ uuid: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e
     <img src=/img/TSK-1969/1.png width=80%>
 </div>
 
-<details markdown="1">
+<details class="note" markdown="1">
 <summary>파이썬 코드</summary>
 
 - 아래 파이썬 코드를 통해서, 유입과 이탈률이 상수로 가정되었을 때, N의 추세를 생각해볼 수 있음
 
-```python
+~~~python
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
@@ -114,7 +114,7 @@ plt.text(15, carrying_capacity + 20, 'Carrying Capacity', color='r')
 
 plt.grid(True)
 plt.show()
-```
+~~~
 
 </details>
 

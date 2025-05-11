@@ -49,7 +49,7 @@ uuid: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a
 
 ### 의사 코드 (Pseudo Code)
 
-```text
+~~~text
 initialize F_0(x) = mean(y)
 
 for m = 1 to M do:
@@ -60,7 +60,7 @@ for m = 1 to M do:
     F_m(x) = F_{m-1}(x) + η * h_m(x)  # update the model
 
 return F_M(x)
-```
+~~~
 
 ### 장점과 단점
 
@@ -80,7 +80,7 @@ return F_M(x)
 
 아래는 Python으로 그라디언트 부스팅 회귀 모델을 구현한 예제입니다.
 
-```python
+~~~python
 import numpy as np
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.datasets import load_boston
@@ -130,4 +130,4 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse:.4f}")
-```
+~~~
