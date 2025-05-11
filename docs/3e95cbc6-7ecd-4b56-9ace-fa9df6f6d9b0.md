@@ -14,10 +14,10 @@ uuid: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0
 
 - 아래 명령어는 동일한 결과를 출력함.
 
-  ```bash
+  ~~~bash
   awk '{ print }' file.txt
   awk '{ print $0 }' file.txt
-  ```
+  ~~~
 
 ## 특정 필드 출력
 
@@ -25,15 +25,15 @@ uuid: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0
 
 - 첫 번째 열 출력:
 
-  ```bash
+  ~~~bash
   awk '{ print $1 }' file.txt
-  ```
+  ~~~
 
 - 첫 번째와 두 번째 열 출력:
 
-  ```bash
+  ~~~bash
   awk '{ print $1, $2 }' file.txt
-  ```
+  ~~~
 
 ## 조건에 맞는 데이터 추출
 
@@ -43,21 +43,21 @@ uuid: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0
 
 - 첫 번째 필드가 2인 레코드에서 두 번째 필드 출력:
 
-  ```bash
+  ~~~bash
   awk '$1 == 2 { print $2 }' file.txt
-  ```
+  ~~~
 
 - 세 번째 필드 값이 50보다 큰 레코드 출력:
 
-  ```bash
+  ~~~bash
   awk '$3 > 50 { print $0 }' file.txt
-  ```
+  ~~~
 
 - "pp"를 포함한 레코드 출력:
 
-  ```bash
+  ~~~bash
   awk '/pp/' file.txt
-  ```
+  ~~~
 
 ## 패턴 매칭과 if문의 차이
 
@@ -65,13 +65,13 @@ uuid: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0
 
 ### 1. 패턴 매칭 방식과 if문 비교
 
-```bash
+~~~bash
 # 패턴 매칭 방식
 awk '$3 > 50 { print $0 }' file.txt
 
 # if문 방식
 awk '{ if ($3 > 50) print $0 }' file.txt
-```
+~~~
 
 ### 2. 주요 차이점
 
@@ -85,7 +85,7 @@ awk '{ if ($3 > 50) print $0 }' file.txt
 
 ### 3. 사용 예시
 
-```bash
+~~~bash
 # 패턴 매칭 - 더 간결하고 효율적
 awk '$1 == "kim" { print $2 }' file.txt
 
@@ -100,7 +100,7 @@ awk '{
         print "Low score:", $0
     }
 }' file.txt
-```
+~~~
 
 ## 데이터 연산
 
@@ -108,15 +108,15 @@ awk '{
 
 - 세 번째 필드 값에 10을 더해 출력:
 
-  ```bash
+  ~~~bash
   awk '{ print $1, $2, $3 + 10 }' file.txt
-  ```
+  ~~~
 
 - 레코드의 모든 숫자 필드 합 계산:
 
-  ```bash
+  ~~~bash
   awk '{ sum=0; for (i=3; i<=NF; i++) sum += $i; print $0, sum }' file.txt
-  ```
+  ~~~
 
 ---
 
@@ -126,15 +126,15 @@ awk '{
 
 - 두 번째 필드 길이가 4 이상인 레코드 출력:
 
-  ```bash
+  ~~~bash
   awk 'length($2) >= 4 { print $0 }' file.txt
-  ```
+  ~~~
 
 - 출력 결과를 역순으로 정렬:
 
-  ```bash
+  ~~~bash
   awk '{ print $0 }' file.txt | sort -r
-  ```
+  ~~~
 
 ---
 
@@ -144,15 +144,15 @@ awk '{
 
 - 모든 레코드 처리 후 총합 계산:
 
-  ```bash
+  ~~~bash
   awk '{ sum += $3 } END { print "Total:", sum }' file.txt
-  ```
+  ~~~
 
 - 입력 데이터 처리 전에 헤더 추가:
 
-  ```bash
+  ~~~bash
   awk 'BEGIN { print "No Name Score" } { print $1, $2, $3 }' file.txt
-  ```
+  ~~~
 
 ---
 
@@ -162,19 +162,19 @@ awk '{
 
 - 첫 번째 필드 출력:
 
-  ```bash
+  ~~~bash
   awk -F ',' '{ print $1 }' file.csv
-  ```
+  ~~~
 
 - 세 번째 필드의 최대값 찾기:
 
-  ```bash
+  ~~~bash
   awk -F ',' '{ if ($3 > max) max = $3 } END { print "Max:", max }' file.csv
-  ```
+  ~~~
 
 ## Example
 
-```plaintext
+~~~plaintext
 Sample Input
 
 A 25 27 50
@@ -188,9 +188,9 @@ A 25 27 50 : FAIL
 B 35 37 75 : FAIL
 C 75 78 80 : B
 D 99 88 76 : A
-```
+~~~
 
-```bash
+~~~bash
 awk '{
     total = $2 + $3 + $4
     avg = total / 3
@@ -200,7 +200,7 @@ awk '{
     else grade = "FAIL"
     print $1, $2, $3, $4, ":", grade
 }' file.txt
-```
+~~~
 
 ---
 

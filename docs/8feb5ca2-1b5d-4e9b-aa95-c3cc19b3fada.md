@@ -72,7 +72,7 @@ Idempotent하지 않은 경우:
 - 이름에서 알 수 있듯이, 파이프라인은 새 데이터를 쓰기 전에 기존 데이터를 삭제함.
 - 이 방법은 데이터 파이프라인이 다시 생성할 데이터를 신중하게 삭제하는 것임
 
-    ```python
+    ~~~python
     import os
     import shutil
     import pandas as pd
@@ -85,11 +85,11 @@ Idempotent하지 않은 경우:
         df = pd.read_csv(input_file)
         # Add your transformations here
         df.to_parquet(os.path.join(output_path, "data.parquet"), partition_cols=["Date"])
-    ```
+    ~~~
 
 - 여러 작업(다른 날짜)을 동시에 실행할 때 테이블 이름 충돌을 방지하기 위해 run-specific 임시 테이블 TEMP_YYYY_MM_DD를 사용하는 것에 유의.
 
-    ```sql
+    ~~~sql
     CREATE TEMP TABLE TEMP_YYYY_MM_DD AS
     SELECT c1, c2, SOME_TRANSFORMATION_FUNCTION(c3) as c3
     FROM stage_table
@@ -103,11 +103,11 @@ Idempotent하지 않은 경우:
     FROM TEMP_YYYY_MM_DD;
 
     DROP TEMP TABLE TEMP_YYYY_MM_DD;
-    ```
+    ~~~
 
     or
 
-    ```sql
+    ~~~sql
     WITH TEMP_YYYY_MM_DD AS (
         SELECT c1, c2, SOME_TRANSFORMATION_FUNCTION(c3) as c3
         FROM stage_table
@@ -119,7 +119,7 @@ Idempotent하지 않은 경우:
     INSERT INTO final_table(c1, c2, c3)
     SELECT c1, c2, c3
     FROM TEMP_YYYY_MM_DD;
-    ```
+    ~~~
 
 - 대부분의 라이브러리와 프레임워크는 덮어쓰기 옵션을 제공함(e.g. Spark overwrite, Snowflake overwrite) 이는 삭제 후 쓰기보다 안전함.
     - 데이터 무결성 문제가 발생하거나
