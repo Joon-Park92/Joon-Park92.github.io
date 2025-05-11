@@ -107,6 +107,8 @@ nav:
     - k8s:
       - resource: 00ec5c52-4cac-4577-a1e5-98d4fbde43dd.md
       - deployment: 444f81ea-f01b-47a3-9748-21727479ee90.md
+    - gitops:
+      - argo-cd: 11fab0ac-da1f-4699-9f87-23ddf3a1242b.md
     - terraform:
       - basic: 7d81fa63-d3fa-46c9-954d-f700780cdcf5.md
       - module: 9f796320-bd12-4bd9-ad27-420fecb00aa0.md
