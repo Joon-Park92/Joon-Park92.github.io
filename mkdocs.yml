@@ -17,7 +17,7 @@ nav:
 - Book:
   - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
   - thinking-in-bets: 6d61fad8-7e87-41a2-a4a7-95a83d249614.md
-  - 무진기행: 7a8d3ccf-7ae1-4723-bf7e-36ac47970f2b.md
+  - record-of-a-journey-to-mujin: 7a8d3ccf-7ae1-4723-bf7e-36ac47970f2b.md
   - the-death-of-ivan-ilyitch: 5542ecb9-6658-4096-9cdb-2ac15a54277a.md
   - the-old-man-and-the-sea: 6f914835-5ecf-432a-9315-71fcca494238.md
 - Papers:
@@ -30,6 +30,7 @@ nav:
     - improving-hallucination: 55f9b832-4723-4ac6-aba1-c5222f275773.md
     - deep-research: 96a2b494-bb88-4504-869e-2dd3002eb2d7.md
     - prompt-guide: 4a3456c9-5673-41f4-8fe5-03daa8571ffa.md
+    - evaluation-of-math-quiz: 01a19268-08cb-4b3c-98d6-9c0d48b03a93.md
   - ml-design-pattern:
     - transform: f8570381-560e-438d-b9f6-5250d6056f36.md
   - theory:
