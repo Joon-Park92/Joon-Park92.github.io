@@ -101,6 +101,7 @@ nav:
     - tcp-udp: 4ebc9c2a-c6c4-4427-8ff8-056a8ccbc38b.md
     - osi-model: 3742ec8b-5f6a-46fc-b3c9-08ad198df8dc.md
   - infra:
+    - slo-sli-sla: 0d9644cb-9846-49ac-b697-3aac254c6543.md
     - database:
       - transaction-and-lock: 67718e56-966a-4592-8c6c-b5828d86dc56.md
     - monitoring:
