@@ -5,8 +5,6 @@ site_url: https://Joon-Park92.github.io
 nav:
 - Home: c0295d5c-ac9d-4a38-a890-a550d8508304.md
 - Think:
-  - daily:
-    - '250414': c5f31887-82ef-40b2-8577-80972dda2033.md
   - problem: 71af9498-4da5-490e-8ca0-41b0d11cc8d7.md
   - innovation: 2f6da2cc-73a4-4dbb-aa14-4c2280df6a59.md
   - growth: 7ba945a8-e583-4b99-bdd8-5c0f84118c54.md
@@ -14,6 +12,9 @@ nav:
   - loneliness: e0a0fbf1-1ed1-4b59-ab3f-335ee2fd5ef6.md
   - pokemon: a544e931-db9d-4f20-b003-6a89f2d4a8d0.md
   - duolingo: 3bc1acea-5edc-4594-984f-b5f284906524.md
+- Insight:
+  - '250414': c5f31887-82ef-40b2-8577-80972dda2033.md
+  - ark-invest-24: f4e1ca07-4c91-45ca-8fc6-ecbe07cbf1a1.md
 - Book:
   - working-backward: cc4e555b-4456-4259-b261-6adb46e70c21.md
   - thinking-in-bets: 6d61fad8-7e87-41a2-a4a7-95a83d249614.md
