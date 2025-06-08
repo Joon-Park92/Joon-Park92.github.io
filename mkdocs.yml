@@ -110,6 +110,8 @@ nav:
     - k8s:
       - resource: 00ec5c52-4cac-4577-a1e5-98d4fbde43dd.md
       - deployment: 444f81ea-f01b-47a3-9748-21727479ee90.md
+    - ansible:
+      - best-practice: 881276a7-c2cf-49ec-8e9e-e0e4fb328e65.md
     - gitops:
       - argo-cd: 11fab0ac-da1f-4699-9f87-23ddf3a1242b.md
     - terraform:
