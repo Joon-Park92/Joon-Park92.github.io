@@ -124,11 +124,14 @@ nav:
 - Mathematics:
   - modern-mathematics: fe3a1ef1-ac09-47dd-8188-870c2b69e147.md
   - linear-algebra:
+    - overview: d104f2a6-2e68-4334-9874-b6f7f3a2100e.md
+    - matrix-classification: 8a0869b9-af2b-4aa1-ad72-73547c185d0a.md
     - laplace-fourier-transform: 356067df-ccd5-4f2f-a732-f3e30fb096c4.md
     - jordan-normal-form: 2ecc0325-cbba-4315-a434-a742533f59fd.md
     - spectral-theory: fc99afe0-532e-4a85-ba15-fdd5f7cd671f.md
     - singular-value-decomposition: e1f6d3f6-8a10-4ea0-a3b8-1167b0c9691f.md
   - abstract-algebra:
+    - overview: 2ae7d22d-21b5-476a-98b9-5b728c809ff2.md
     - ideal: 94229181-dc2c-4e33-ad8d-3e449257edbe.md
   - analysis:
     - basic: 5457aa52-7690-4906-afc2-8243ab67a390.md
