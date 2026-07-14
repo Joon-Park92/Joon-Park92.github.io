@@ -1,6 +1,10 @@
 ---
-publish: true
 uuid: 8ea2fddb-bde7-4e71-bdac-b2f5b31dc35e
+type: resource
+created: 2024-08-20
+publish: true
+tags:
+    - taxonomy/product-and-growth/analytics
 ---
 
 ## TL;DR

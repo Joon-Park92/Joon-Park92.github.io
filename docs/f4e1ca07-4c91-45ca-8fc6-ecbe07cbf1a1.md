@@ -1,8 +1,14 @@
 ---
-publish: true
 uuid: f4e1ca07-4c91-45ca-8fc6-ecbe07cbf1a1
+type: resource
+created: 2025-06-05
+publish: true
+status: ⚪ ARCHIVE
+tags:
+    - taxonomy/finance/investment/report
+index:
+    - "[[area-finance]]"
 ---
-
 ## 01. Technological Convergence
 
 ### 핵심 주장과 근거

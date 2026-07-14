@@ -1,6 +1,10 @@
 ---
-publish: true
 uuid: 3ccafe3b-c24d-4bbc-b8a5-487b3b83cd5a
+type: resource
+created: 2024-05-16
+publish: true
+tags:
+    - taxonomy/software-engineering/data-science/machine-learning/xgboost
 ---
 
 # Gradient Boosting

@@ -1,6 +1,10 @@
 ---
-publish: true
 uuid: 3e95cbc6-7ecd-4b56-9ace-fa9df6f6d9b0
+type: resource
+created: 2024-11-29
+publish: true
+tags:
+    - taxonomy/software-engineering/reference/shell
 ---
 
 ## TL;DR

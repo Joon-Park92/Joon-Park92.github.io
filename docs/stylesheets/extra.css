@@ -1,9 +1,9 @@
 .md-content a:link {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .md-typeset a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .md-typeset h1 {
@@ -14,9 +14,9 @@
 }
 
 .md-typeset h1::after {
-  width:93%;
-  height:2px;
-  content:"";
+  width: 93%;
+  height: 2px;
+  content: "";
   display: block;
   margin-top: 1px;
   opacity: 0.3;
@@ -30,9 +30,9 @@
 }
 
 .md-typeset h2::after {
-  width:100%;
-  height:1px;
-  content:"";
+  width: 100%;
+  height: 1px;
+  content: "";
   display: block;
   margin-top: -5px;
   opacity: 0.2;

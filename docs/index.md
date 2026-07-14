@@ -1,6 +1,8 @@
 ---
-publish: true
 uuid: c0295d5c-ac9d-4a38-a890-a550d8508304
+type: resource/output
+created: 2024-04-28
+publish: true
 ---
 
 # Hi, I'm Sean, Machine Learning Engineer

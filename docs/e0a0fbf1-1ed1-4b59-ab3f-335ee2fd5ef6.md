@@ -1,6 +1,10 @@
 ---
-publish: true
 uuid: e0a0fbf1-1ed1-4b59-ab3f-335ee2fd5ef6
+type: resource
+created: 2024-07-15
+publish: true
+tags:
+    - taxonomy/philosophy
 ---
 
 <div markdown="1">
@@ -52,7 +56,7 @@ Loneliness is bodily function like hunger. Your body needs social needs. It was 
             fill: steelblue;
         }
         .bar:hover {
-            fill: #2171b5;
+            fill: `#2171b5`;
         }
         .tooltip {
             position: absolute;
@@ -62,7 +66,7 @@ Loneliness is bodily function like hunger. Your body needs social needs. It was 
             padding: 8px;
             font: 12px sans-serif;
             background: lightsteelblue;
-            border: 1px solid #333;
+            border: 1px solid `#333`;
             border-radius: 8px;
             pointer-events: none;
         }
@@ -184,3 +188,6 @@ Loneliness is bodily function like hunger. Your body needs social needs. It was 
 - 다음과 같은 두 책을 참조하였다. “EMOTIONAL FIRST AID, Guy Winch” / “Loneliness, John T. Cacioppo & William Patrick “
 
 </div>
+
+---
+
